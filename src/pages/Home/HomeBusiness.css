@@ -1,0 +1,410 @@
+/* =====================================================
+   HOME BUSINESS
+===================================================== */
+
+.home-business {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  background: #f5f5f3;
+}
+
+
+/* =====================================================
+   IMAGE
+===================================================== */
+
+.home-business-image {
+  position: relative;
+
+  width: 100%;
+  height: 650px;
+
+  overflow: hidden;
+}
+
+.home-business-image img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* =====================================================
+   OVERLAY
+===================================================== */
+
+.home-business-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.32);
+  z-index: 1;
+}
+
+
+/* =====================================================
+   DESKTOP CONTENT
+===================================================== */
+
+.desktop-content {
+  position: absolute;
+
+  left: 50px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: min(500px, calc(100% - 100px));
+
+  color: #fff;
+
+  z-index: 2;
+}
+
+
+/* ==============================
+   LABEL
+============================== */
+
+.desktop-content > span {
+  display: block;
+
+  margin-bottom: 15px;
+
+  font-size: 12px;
+  line-height: 1.2;
+
+  color: #fff;
+}
+
+
+/* ==============================
+   TITLE
+============================== */
+
+.desktop-content h2 {
+  margin: 0 0 17px;
+
+  font-size: clamp(30px, 3vw, 46px);
+  line-height: 1.08;
+
+  font-weight: 400;
+
+  color: #fff;
+}
+
+
+/* ==============================
+   DESCRIPTION
+============================== */
+
+.desktop-content p {
+  max-width: 440px;
+
+  margin: 0 0 25px;
+
+  font-size: 13px;
+  line-height: 1.55;
+
+  color: #fff;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.home-business-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 130px;
+  min-height: 44px;
+
+  padding: 12px 22px;
+
+  background: #fff;
+  color: #111;
+
+  border: none;
+  border-radius: 4px;
+
+  font-size: 12px;
+  line-height: 1;
+
+  text-decoration: none;
+
+  transition: background-color 0.2s ease;
+}
+
+.home-business-button:hover {
+  background: #f1f1f1;
+  color: #111;
+}
+
+
+/* =====================================================
+   MOBILE CONTENT
+===================================================== */
+
+.home-business-mobile-content {
+  display: none;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1023px) {
+
+  .home-business-image {
+    height: 550px;
+  }
+
+  .desktop-content {
+    left: 35px;
+
+    width: min(450px, calc(100% - 70px));
+  }
+
+  .desktop-content > span {
+    font-size: 11px;
+  }
+
+  .desktop-content h2 {
+    font-size: 36px;
+  }
+
+  .desktop-content p {
+    font-size: 12px;
+  }
+
+  .home-business-button {
+    min-width: 120px;
+    min-height: 42px;
+
+    padding: 11px 20px;
+
+    font-size: 11px;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 767px) {
+
+  .home-business {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background: #252525;
+  }
+
+
+  /* ==============================
+     IMAGE
+  ============================== */
+
+  .home-business-image {
+    width: 100%;
+
+    height: auto;
+
+    overflow: hidden;
+  }
+
+  .home-business-image img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+  }
+
+
+  /* ==============================
+     REMOVE DESKTOP CONTENT
+  ============================== */
+
+  .desktop-content {
+    display: none;
+  }
+
+  .home-business-overlay {
+    display: none;
+  }
+
+
+  /* ==============================
+     MOBILE CONTENT
+  ============================== */
+
+  .home-business-mobile-content {
+    display: block;
+
+    width: 100%;
+
+    padding: 35px 24px 40px;
+
+    background: #252525;
+
+    color: #fff;
+  }
+
+
+  /* ==============================
+     LABEL
+  ============================== */
+
+  .home-business-mobile-content > span {
+    display: block;
+
+    margin: 0 0 12px;
+
+    font-size: 9px;
+    line-height: 1.2;
+
+    color: #bcbcbc;
+  }
+
+
+  /* ==============================
+     TITLE
+  ============================== */
+
+  .home-business-mobile-content h2 {
+    margin: 0 0 14px;
+
+    font-size: 22px;
+    line-height: 1.12;
+
+    font-weight: 400;
+
+    color: #fff;
+  }
+
+
+  /* ==============================
+     DESCRIPTION
+  ============================== */
+
+  .home-business-mobile-content p {
+    margin: 0 0 20px;
+
+    font-size: 11.5px;
+    line-height: 1.5;
+
+    color: #e2e2e2;
+  }
+
+
+  /* ==============================
+     BUTTON
+  ============================== */
+
+  .home-business-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 125px;
+    min-height: 42px;
+
+    padding: 11px 20px;
+
+    background: #fff;
+    color: #111;
+
+    font-size: 11px;
+
+    border-radius: 4px;
+  }
+
+  .home-business-button:hover {
+    background: #fff;
+    color: #111;
+  }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+  .home-business-mobile-content {
+    padding: 30px 20px 35px;
+
+    background: #292929;
+  }
+
+
+  /* ==============================
+     LABEL
+  ============================== */
+
+  .home-business-mobile-content > span {
+    font-size: 8.5px;
+
+    margin-bottom: 10px;
+
+    color: #bcbcbc;
+  }
+
+
+  /* ==============================
+     TITLE
+  ============================== */
+
+  .home-business-mobile-content h2 {
+    font-size: 20px;
+
+    line-height: 1.12;
+
+    margin-bottom: 13px;
+  }
+
+
+  /* ==============================
+     DESCRIPTION
+  ============================== */
+
+  .home-business-mobile-content p {
+    font-size: 11px;
+
+    line-height: 1.5;
+
+    margin-bottom: 19px;
+  }
+
+
+  /* ==============================
+     BUTTON
+  ============================== */
+
+  .home-business-button {
+    min-width: 120px;
+
+    min-height: 40px;
+
+    padding: 10px 18px;
+
+    font-size: 10.5px;
+  }
+}

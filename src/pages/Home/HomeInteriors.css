@@ -1,0 +1,442 @@
+/* =====================================================
+   INTERIORS SECTION
+===================================================== */
+
+.interiors-section {
+  display: block;
+
+  position: relative;
+
+  width: 100%;
+
+  height: auto;
+  min-height: 0;
+
+  margin: 0;
+  padding: 80px 50px;
+
+  background: #f5f5f3;
+
+  clear: both;
+}
+
+
+/* =====================================================
+   ROW
+===================================================== */
+
+.interior-row {
+  width: 100%;
+  max-width: 1600px;
+
+  margin: 0 auto 100px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  gap: 70px;
+}
+
+.interior-row:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =====================================================
+   CONTENT - LEFT
+===================================================== */
+
+.interior-content {
+  flex: 0 0 34%;
+
+  width: 34%;
+  max-width: 500px;
+
+  text-align: left;
+}
+
+.interior-content h2 {
+  margin: 0 0 25px;
+
+  font-size: 38px;
+  line-height: 1.1;
+
+  font-weight: 400;
+
+  color: #222;
+}
+
+.interior-content p {
+  margin: 0 0 30px;
+
+  font-size: 14px;
+  line-height: 1.65;
+
+  font-weight: 400;
+
+  color: #333;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.interior-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 145px;
+  min-height: 46px;
+
+  padding: 13px 24px;
+
+  background: #222;
+  color: #fff;
+
+  border: none;
+  border-radius: 4px;
+
+  font-size: 13px;
+  line-height: 1;
+
+  text-decoration: none;
+
+  transition: background-color 0.25s ease;
+}
+
+.interior-button:hover {
+  background: #3a3a3a;
+  color: #fff;
+}
+
+
+/* =====================================================
+   IMAGE - RIGHT
+===================================================== */
+
+.interior-image-wrapper {
+  flex: 1 1 auto;
+
+  width: 100%;
+
+  min-width: 0;
+
+  overflow: hidden;
+}
+
+.interior-image-wrapper img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+
+  object-fit: cover;
+}
+
+
+/* =====================================================
+   SECOND ROW
+===================================================== */
+
+.interior-row-reverse {
+  margin-top: 40px;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1023px) {
+
+  .interiors-section {
+    width: 100%;
+
+    padding: 60px 35px;
+
+    margin: 0;
+  }
+
+  .interior-row {
+    width: 100%;
+
+    gap: 40px;
+
+    margin-bottom: 70px;
+  }
+
+  .interior-content {
+    flex: 0 0 35%;
+
+    width: 35%;
+  }
+
+  .interior-content h2 {
+    font-size: 30px;
+
+    margin-bottom: 18px;
+  }
+
+  .interior-content p {
+    font-size: 13px;
+
+    line-height: 1.55;
+
+    margin-bottom: 22px;
+  }
+
+  .interior-button {
+    min-width: 130px;
+    min-height: 42px;
+
+    padding: 11px 20px;
+
+    font-size: 12px;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 767px) {
+
+  .interiors-section {
+    display: block;
+
+    position: relative;
+
+    width: 100%;
+
+    height: auto;
+    min-height: 0;
+
+    margin: 0;
+
+    padding: 45px 20px 55px;
+
+    background: #f5f5f3;
+
+    overflow: visible;
+
+    clear: both;
+  }
+
+
+  /* ==============================
+     ROW
+  ============================== */
+
+  .interior-row,
+  .interior-row-reverse {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    width: 100%;
+
+    height: auto;
+    min-height: 0;
+
+    margin: 0 0 65px;
+
+    padding: 0;
+
+    gap: 0;
+  }
+
+  .interior-row:last-child,
+  .interior-row-reverse:last-child {
+    margin-bottom: 0;
+  }
+
+
+  /* ==============================
+     IMAGE FIRST
+  ============================== */
+
+  .interior-image-wrapper {
+    position: relative;
+
+    order: 1;
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+    min-height: 0;
+
+    flex: none;
+
+    margin: 0 0 30px;
+
+    padding: 0;
+
+    overflow: hidden;
+  }
+
+  .interior-image-wrapper img {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+    min-height: 0;
+
+    margin: 0;
+    padding: 0;
+
+    object-fit: cover;
+  }
+
+
+  /* ==============================
+     TEXT AFTER IMAGE
+  ============================== */
+
+  .interior-content {
+    order: 2;
+
+    display: block;
+
+    width: 100%;
+    max-width: none;
+
+    height: auto;
+    min-height: 0;
+
+    flex: none;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: left;
+  }
+
+  .interior-content h2 {
+    margin: 0 0 17px;
+
+    font-size: 28px;
+
+    line-height: 1.1;
+
+    font-weight: 400;
+
+    color: #222;
+  }
+
+  .interior-content p {
+    margin: 0 0 22px;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+    color: #333;
+  }
+
+
+  /* ==============================
+     BUTTON
+  ============================== */
+
+  .interior-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 135px;
+    min-height: 44px;
+
+    padding: 12px 21px;
+
+    font-size: 12px;
+  }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+  .interiors-section {
+    padding: 35px 15px 45px;
+  }
+
+
+  /* ==============================
+     ROW
+  ============================== */
+
+  .interior-row,
+  .interior-row-reverse {
+    margin-bottom: 55px;
+  }
+
+
+  /* ==============================
+     IMAGE
+  ============================== */
+
+  .interior-image-wrapper {
+    margin-bottom: 25px;
+  }
+
+
+  /* ==============================
+     TITLE
+  ============================== */
+
+  .interior-content h2 {
+    font-size: 25px;
+
+    margin-bottom: 14px;
+  }
+
+
+  /* ==============================
+     DESCRIPTION
+  ============================== */
+
+  .interior-content p {
+    font-size: 12px;
+
+    line-height: 1.55;
+
+    margin-bottom: 20px;
+  }
+
+
+  /* ==============================
+     BUTTON
+  ============================== */
+
+  .interior-button {
+    min-width: 125px;
+    min-height: 41px;
+
+    padding: 11px 18px;
+
+    font-size: 11px;
+  }
+}
+
+

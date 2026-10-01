@@ -1,0 +1,608 @@
+
+/* =========================
+   PAGE
+========================= */
+
+.commercial-page {
+  width: 100%;
+  min-height: 100vh;
+
+  background: #f5f5f3;
+  color: #282828;
+
+  overflow: hidden;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.commercial-title-section {
+  width: 100%;
+
+  padding-top: 105px;
+  padding-bottom: 22px;
+
+  background: #f5f5f3;
+
+  box-sizing: border-box;
+}
+
+.commercial-title-container {
+  width: 90%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+}
+
+.commercial-title-container h1 {
+  margin: 0;
+
+  font-size: 38px;
+  line-height: 1.1;
+  font-weight: 400;
+
+  color: #282828;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.commercial-hero {
+  width: 85%;
+
+  height: 320px;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+
+.commercial-hero img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.commercial-description {
+  width: 100%;
+
+  background: #f5f5f3;
+
+  padding: 45px 0 55px;
+}
+
+.commercial-description-container {
+  width: 90%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+}
+
+.commercial-description-container p {
+  width: 100%;
+  max-width: 1450px;
+
+  margin: 0;
+
+  font-size: 11px;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color: #282828;
+}
+
+
+/* =========================
+   PROJECTS SECTION
+========================= */
+
+.commercial-projects {
+  width: 100%;
+
+  padding: 0 0 90px;
+
+  background: #f5f5f3;
+}
+
+.commercial-projects-container {
+  width: 92%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.commercial-projects-header {
+  margin-bottom: 32px;
+}
+
+.commercial-projects-header h2 {
+  margin: 0;
+
+  font-size: 42px;
+  line-height: 1.05;
+  font-weight: 400;
+
+  color: #282828;
+}
+
+
+/* =========================
+   SLIDER AREA
+========================= */
+
+.commercial-slider-area {
+  position: relative;
+
+  width: 100%;
+}
+
+
+/* =========================
+   SLIDER
+========================= */
+
+.commercial-slider {
+  display: flex;
+
+  width: 100%;
+
+  gap: 12px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scrollbar-width: none;
+
+  scroll-behavior: auto;
+}
+
+.commercial-slider::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.commercial-project-card {
+  position: relative;
+
+  flex: 0 0 calc(
+    (100% - 36px) / 4.2
+  );
+
+  min-width: 0;
+
+  aspect-ratio: 1 / 1.05;
+
+  overflow: hidden;
+
+  flex-shrink: 0;
+
+  background: #000;
+
+  text-decoration: none;
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.commercial-project-image {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+.commercial-project-image img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.3s ease;
+}
+
+.commercial-project-card:hover
+.commercial-project-image img {
+  transform: scale(1.025);
+}
+
+
+/* =========================
+   DARK OVERLAY
+========================= */
+
+.commercial-project-card::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  background:
+    rgba(0, 0, 0, 0.12);
+
+  transition:
+    background 0.25s ease;
+}
+
+.commercial-project-card:hover::after {
+  background:
+    rgba(0, 0, 0, 0.2);
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.commercial-project-title {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: 2;
+
+  padding: 22px 18px;
+}
+
+.commercial-project-title h3 {
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 400;
+
+  color: #fff;
+
+  text-shadow:
+    0 1px 8px
+    rgba(0, 0, 0, 0.35);
+}
+
+
+/* =========================
+   ARROWS
+========================= */
+
+.commercial-arrows {
+  position: absolute;
+
+  inset: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 10;
+
+  pointer-events: none;
+}
+
+.commercial-arrow {
+  width: 42px;
+  height: 42px;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: rgb(225, 226, 226);
+
+  color: #282828;
+
+  cursor: pointer;
+
+  pointer-events: auto;
+
+  transition:
+    opacity 0.25s ease,
+    background 0.25s ease;
+}
+
+.commercial-arrow svg {
+  display: block;
+}
+
+.commercial-arrow-left {
+  margin-left: 14px;
+}
+
+.commercial-arrow-left svg {
+  transform: rotate(180deg);
+}
+
+.commercial-arrow-right {
+  margin-right: 14px;
+}
+
+.commercial-arrow:not(.is-disabled):hover {
+  background: rgb(240, 241, 241);
+}
+
+.commercial-arrow-right:not(.is-disabled):hover svg {
+  transform: translateX(3px);
+}
+
+.commercial-arrow-left:not(.is-disabled):hover svg {
+  transform:
+    translateX(-3px)
+    rotate(180deg);
+}
+
+.commercial-arrow.is-disabled {
+  opacity: 0.35;
+
+  cursor: default;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1200px) {
+
+  .commercial-hero {
+    width: 88%;
+    height: 430px;
+  }
+
+  .commercial-project-card {
+    flex: 0 0 calc(
+      (100% - 24px) / 3.2
+    );
+  }
+}
+
+
+@media (max-width: 900px) {
+
+  .commercial-title-section {
+    padding-top: 95px;
+    padding-bottom: 20px;
+  }
+
+  .commercial-title-container {
+    width: 92%;
+  }
+
+  .commercial-title-container h1 {
+    font-size: 34px;
+  }
+
+
+  .commercial-hero {
+    width: 90%;
+    height: 380px;
+  }
+
+
+  .commercial-description {
+    padding: 40px 0 50px;
+  }
+
+  .commercial-description-container {
+    width: 92%;
+  }
+
+  .commercial-description-container p {
+    font-size: 10.5px;
+    line-height: 1.6;
+  }
+
+
+  .commercial-projects-container {
+    width: 92%;
+  }
+
+  .commercial-projects-header {
+    margin-bottom: 27px;
+  }
+
+  .commercial-projects-header h2 {
+    font-size: 36px;
+  }
+
+
+  .commercial-project-card {
+    flex: 0 0 calc(
+      (100% - 18px) / 2.2
+    );
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .commercial-title-section {
+    padding-top: 82px;
+    padding-bottom: 16px;
+  }
+
+  .commercial-title-container {
+    width: 92%;
+  }
+
+  .commercial-title-container h1 {
+    font-size: 27px;
+  }
+
+
+  /* HERO */
+
+  .commercial-hero {
+    width: 92%;
+    height: 250px;
+  }
+
+  .commercial-hero img {
+    object-position: center;
+  }
+
+
+  /* DESCRIPTION */
+
+  .commercial-description {
+    padding: 32px 0 42px;
+  }
+
+  .commercial-description-container {
+    width: 92%;
+  }
+
+  .commercial-description-container p {
+    font-size: 10px;
+    line-height: 1.65;
+  }
+
+
+  /* PROJECTS */
+
+  .commercial-projects {
+    padding: 0 0 60px;
+  }
+
+  .commercial-projects-container {
+    width: 92%;
+  }
+
+  .commercial-projects-header {
+    margin-bottom: 22px;
+  }
+
+  .commercial-projects-header h2 {
+    font-size: 30px;
+  }
+
+
+  .commercial-slider {
+    gap: 10px;
+  }
+
+  .commercial-project-card {
+    flex: 0 0 100%;
+
+    aspect-ratio: 1.15 / 1;
+  }
+
+
+  .commercial-project-title {
+    padding: 20px 16px;
+  }
+
+  .commercial-project-title h3 {
+    font-size: 15px;
+  }
+
+
+  /* ARROWS */
+
+  .commercial-arrows {
+    position: static;
+
+    width: 100%;
+
+    justify-content: flex-start;
+
+    gap: 7px;
+
+    margin-top: 14px;
+
+    pointer-events: auto;
+  }
+
+  .commercial-arrow {
+    width: 38px;
+    height: 38px;
+
+    margin: 0;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+  .commercial-title-container {
+    width: 92%;
+  }
+
+  .commercial-title-container h1 {
+    font-size: 25px;
+  }
+
+  .commercial-hero {
+    width: 92%;
+    height: 220px;
+  }
+
+  .commercial-description-container p {
+    font-size: 9.5px;
+  }
+
+  .commercial-projects-header h2 {
+    font-size: 27px;
+  }
+
+  .commercial-project-title {
+    padding: 18px 14px;
+  }
+
+  .commercial-project-title h3 {
+    font-size: 14px;
+  }
+
+  .commercial-arrow {
+    width: 36px;
+    height: 36px;
+  }
+}

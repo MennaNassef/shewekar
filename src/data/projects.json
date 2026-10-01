@@ -1,0 +1,3852 @@
+{
+  "_meta": {
+    "source": "https://shewekar.com/pages/residential",
+    "description": "Residential project data compiled from official Shewekar project pages and official image URLs that were verifiable during the current crawl.",
+    "verifiedProjectCount": 17,
+    "fullyVerifiedGalleryProjects": [
+      "lucien-on-shore",
+      "world-travelers-summer-home",
+      "villa-basata",
+      "minimalist-soul"
+    ],
+    "note": "For several older project pages the current web extraction exposes only the hero image, so no additional image URLs were invented. Boundless Living is listed on the official Residential page, but its dedicated project details were not verifiable in the current crawl."
+  },
+  
+  "zamalek-penthouse": {
+    "title": "Zamalek Duplex",
+    "location":"Project",
+    "client": null,
+    "projectDate": null,
+    "description": "Set in the heart of Cairo, this Zamalek duplex is a celebration of character, culture, and collected beauty.\n\nLayered, expressive, and unapologetically maximalist, the home reflects a life lived fully, where pieces gathered over the years coexist effortlessly.\n\nGuided by Shewekar’s vision, the architecture was thoughtfully elevated to embrace the client’s treasured art collection. The staircase was introduced to seamlessly connect the two levels and transformed into a sculptural centerpiece, an art piece in its own right that sets the aesthetic tone of the space. Refined woodwork, bespoke detailing, and handcrafted elements create a luxurious backdrop that allows each piece to breathe and ensures the space enhances rather than competes with its contents.\n\nIntentionally rich in personality and depth, the home unfolds as a tapestry of stories, memories, and evolving taste. More than a residence, it is an atmosphere that feels vibrant, intimate, and unmistakably its own.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_01.jpg?v=1771319575&width=1100",
+    "images": [
+    {
+      "id": "zamalek-duplex-1",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_27.jpg?v=1771319567&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex",
+      "isHero": true
+    },
+    {
+      "id": "zamalek-duplex-2",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_01.jpg?v=1771319575&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-3",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_44.jpg?v=1771319573&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-4",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_34.jpg?v=1771319574&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-5",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_53.jpg?v=1771319576&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-6",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_04.jpg?v=1771319577&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-7",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_79.jpg?v=1771319577&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-8",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_71.jpg?v=1771319579&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-9",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_88.jpg?v=1771319586&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-10",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_05.jpg?v=1771319601&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-11",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_32.jpg?v=1771319623&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-12",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_46.jpg?v=1771319631&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-13",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_67.jpg?v=1771319632&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-14",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_48.jpg?v=1771319632&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-15",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_90.jpg?v=1771319643&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-16",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_43.jpg?v=1771319653&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-17",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_102.jpg?v=1771319653&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-18",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_57.jpg?v=1771319664&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-19",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_96.jpg?v=1771319685&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-20",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_95.jpg?v=1771319691&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-21",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_09.jpg?v=1771319690&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-22",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_10.jpg?v=1771319695&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-23",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_85.jpg?v=1771319704&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-24",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_17.jpg?v=1771319701&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    },
+    {
+      "id": "zamalek-duplex-25",
+      "url": "https://shewekar.com/cdn/shop/files/Zamalek_Penthouse_26.jpg?v=1771319705&width=2116",
+      "alt": "Zamalek Duplex",
+      "description": "Zamalek Duplex"
+    }
+  ]
+  },
+  "boundless-living": {
+    "title": "Boundless Living",
+    "location":"Project",
+    "client": null,
+    "projectDate": null,
+    "description": "A refined expression of contemporary elegance softened by nature, this home unfolds through gentle architectural curves, tranquil water features, and layered greenery that create a calming sense of arrival. Expansive glass openings invite natural light to pour in, blurring the boundary between indoors and out. Inside, warm walnut paneling and sculptural marble surfaces introduce depth and quiet luxury, while the fluted kitchen island anchors the space, designed for gathering, everyday rituals, and effortless entertaining.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/SH1.jpg?v=1770884894&width=1500",
+    "images": [
+      {
+        "id": "boundless-living-1",
+        "url": "https://shewekar.com/cdn/shop/files/SH1.jpg?v=1770884894&width=1500",
+        "alt": "Boundless Living",
+        "description": "Boundless Living",
+        "isHero": true
+      },
+      {
+        "id": "boundless-living-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH17.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH20.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH21.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH26.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH28.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH29.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH8.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH9.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH11.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-11",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH12.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-12",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH15.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-13",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH16.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-14",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH19.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-15",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH22.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-16",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH23.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-17",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH24.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-18",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH25.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-19",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH27.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-20",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH30.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-21",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH6.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-22",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH7.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-23",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH10.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-24",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH13.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-25",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH14.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-26",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH2.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-27",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH3.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-28",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH4.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "boundless-living-29",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/SH5.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "lucien-on-shore": {
+    "title": "Lucien On Shore, 2024",
+    "location":"Project",
+    "client": null,
+    "projectDate": 2024,
+    "description": "Set in the picturesque Almaza Bay on Egypt‘s North Coast, this project transforms a summer retreat into a masterpiece of seamless indoor-outdoor living. With 3 luscious pools, 15 uniquely designed bedrooms, 9 fluid living spaces & 4 bar areas, the design balances contemporary luxury with a deep connection to the designers' and owner's Alexandrian heritage. Every detail, from the use of travertine and emerald marble to the vibrant Mediterranean-inspired color palette, reflects thoughtful craftsmanship and storytelling. Lucien on Shore is not just a residence, it's an immersive experience where architecture and nature meet in perfect harmony.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/Lucien_On-Shore_96.jpg?v=1733135523&width=1100",
+    "images": [
+      {
+        "id": "lucien-on-shore-1",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_24.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": true
+      },
+      {
+        "id": "lucien-on-shore-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_04.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_05.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_41.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_46.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_76.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_39.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_84.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_87.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_88.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-11",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_81.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-12",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_73.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-13",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_31.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-14",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_14.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-15",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_68.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-16",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_69.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-17",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_72.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-18",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_74.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-19",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_79.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-20",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_67.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-21",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_82.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-22",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_54.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-23",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_55.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-24",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_56.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-25",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_80.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-26",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_96_6c8f847a-9d33-414a-8d1f-c56b0ea2ce07.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-27",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_108.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-28",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_105.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "lucien-on-shore-29",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Lucien_On-Shore_109.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "turquoise-flare": {
+    "title": "Turquoise Flare",
+    "location":"Project",
+    "client": "Loving Egyptian Family",
+    "projectDate": 2023,
+    "description": "When one of our favorite returning clients asked us to design their summer family home, Shewekar created a melody of colors and shapes, infused with natural elements and a lot of love. With three generations in this house, it was important to create comfort and space for everyone. The creative layout allowed for all the rooms to have ensuite bathrooms, multiple shared family areas, a couple of cozy corners for privacy, as well as an in-door futuristic capsule elevator.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/Turquoise_Flare_03.jpg?v=1717685359&width=1100",
+    "images": [
+      {
+        "id": "turquoise-flare-1",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_01.jpg?v=1717685306&width=1000",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": true
+      },
+      {
+        "id": "turquoise-flare-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_02.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_03.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_04.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_05.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_06.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_07.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_08.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_09.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_10.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-11",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_11.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-12",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_12.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-13",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_13.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-14",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_14.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-15",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_15.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-16",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_16.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-17",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_17.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-18",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_18.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-19",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_19.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-20",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_20.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-21",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_21.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-22",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_22.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-23",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_23.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-24",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_24.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-25",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_25.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-26",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_26.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-27",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_27.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-28",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_28.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-29",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_29.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-30",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_30.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-31",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_31.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-32",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_32.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-33",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_33.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-34",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_34.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-35",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_35.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "turquoise-flare-36",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/Turquoise_Flare_36.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "seaside-cabana": {
+    "title": "Seaside Cabana",
+    "location":"Project",
+    "client": "Hacienda West, PHD",
+    "projectDate": 2023,
+    "description": "How long does it take to completely revamp a front-line cabana by the Mediterranean? With Shewekar, under one month. With this cute little project the team worked wonders with the limited space and timeline, converting the cabana into a vibrant, stylish, fully furnished and fitted studio apartment by the beach.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/seaside_cabana_01.jpg?v=1717924964&width=1100",
+    "images": [
+      {
+        "id": "seaside-cabana-hero",
+        "url": "https://shewekar.com/cdn/shop/files/Seaside-Cabana-scaled.jpg?v=1717414833&width=2560",
+        "alt": "Seaside Cabana",
+        "description": "Seaside Cabana",
+        "isHero": true
+      },
+      {
+        "id": "seaside-cabana-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_02.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "seaside-cabana-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_03.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "seaside-cabana-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_04.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "seaside-cabana-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_05.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "seaside-cabana-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_06.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "seaside-cabana-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_07.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "seaside-cabana-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_08.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "seaside-cabana-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_09.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "seaside-cabana-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/seaside_cabana_10.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "world-travelers-summer-home": {
+    "title": "World Travelers’ Summer Home",
+    "location":"Project",
+    "client": "World Travelers'",
+    "projectDate": 2022,
+    "description": "This is the summer home of world travelers, who had brought back a token from every city they've ever been to over the past 40 years. Our design philosophy for this space was to infuse their experiences and collectibles to create an eclectic and multi-layered feel, so we just had to give them that beautiful display wall, punctuated by this oak ceiling and bold black-and-white terrazzo flooring! The kitchenette counter is a spin on our very own Horus Wings side table in a warm teal color, and the outdoor space boasts multiple Shewekar custom-made pieces and a gorgeous oceanic blue pool to compliment the Mediterranean hues.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/wtsh_01.jpg?v=1717925183&width=2560",
+    "images": [
+      {
+        "id": "world-travelers-summer-home-1",
+        "url": "https://shewekar.com/cdn/shop/files/wtsh_01.jpg?v=1717925183&width=2560",
+        "alt": "World Travelers’ Summer Home",
+        "description": "World Travelers’ Summer Home",
+        "isHero": true
+      },
+      {
+        "id": "world-travelers-summer-home-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_02.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_03.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_04.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_05.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_06.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_07.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_08.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_09.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_10.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-11",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_11.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-12",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_12.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-13",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_13.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-14",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_14.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-15",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_15.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-16",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_16.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-17",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_17.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-18",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_18.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "world-travelers-summer-home-19",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/wtsh_19.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "villa-basata": {
+    "title": "Villa Basata",
+    "location":"Project",
+    "client": "Chilled Summer Home Owners",
+    "projectDate": 2022,
+    "description": "Step into our world of simpler times. Lovers of food, cooking and having friends over, this family wanted nothing but a chilled place to lovingly do all the above. This project exudes calm and serenity, with earthy elements, breathable spaces, and smooth retro lines. The kitchen is placed at the heart of the home (as kitchens should be), the shade is beautifully created using natural bamboo sticks, the organic grooves in the wall are home to memories and collectibles, and the tree-bar island has seen nothing but fun times!",
+    "heroImage": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_01.jpg?v=1717925887&width=1000",
+    "images": [
+      {
+        "id": "villa-basata-1",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_01.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": true
+      },
+      {
+        "id": "villa-basata-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_02.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_03.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_04.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_05.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_06.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_07.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_08.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_09.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_10.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-11",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_11.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-12",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_12.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "villa-basata-13",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/svb_13.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "minimalist-soul": {
+    "title": "Minimalist Soul",
+    "location":"Project",
+    "client": "Minimalist Family",
+    "projectDate": 2022,
+    "description": "With a need for empty spaces and a subdued design aesthetic, our challenge for this summer home was to keep it simple yet infused with warmth and character. The beautiful terrazzo flooring immediately fills the entire villa with a unified design element, the detailed wood-work gives depth to the few furniture pieces the client allowed us to install, and the floor-to-ceiling windows allow the serene nature outside to spill in. This is a project that had minimal furnishings but a whole lot of details.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/sms_01.jpg?v=1717927661&width=2560",
+    "images": [
+      {
+        "id": "minimalist-soul-1",
+        "url": "https://shewekar.com/cdn/shop/files/sms_01.jpg?v=1717927661&width=2560",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": true
+      },
+      {
+        "id": "minimalist-soul-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_02.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_03.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_04.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_05.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_06.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_07.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_08.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_09.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_10.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-11",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_11.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-12",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_12.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "minimalist-soul-13",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sms_13.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "collectors-heaven": {
+    "title": "Collector’s Heaven",
+    "location":"Project",
+    "client": "Residential Villa",
+    "projectDate": 2022,
+    "description": "Our timeless projects mature over time and their beauty continues to flourish. This project is a true testament to the joy of collecting signature pieces over the years, as each piece tells a story and narrates a memory. Curating these timeless pieces not only gave a sense of richness to this home but, combined with the right design elements, yielded a special living space which radiates with uniqueness. In this project, we worked on artistically curating a space that infuses a melody of patterns, colors and materials, which we creatively utilized to customize ceiling & flooring patterns, unique Art Deco furniture, Murano glass appliques, vintage antique pieces and curated Asian & Egyptian artwork.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/spch_01.jpg?v=1717928123&width=2560",
+    "images": [
+      {
+        "id": "collectors-heaven-1",
+        "url": "https://shewekar.com/cdn/shop/files/spch_01.jpg?v=1717928123&width=2560",
+        "alt": "Collector’s Heaven",
+        "description": "Collector’s Heaven",
+        "isHero": true
+      },
+      {
+        "id": "collectors-heaven-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_02.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_03.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_04.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_05.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_06.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_07.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_08.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_09.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_10.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-11",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_11.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-12",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_12.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-13",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_13.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-14",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_14.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-15",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_15.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-16",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_16.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-17",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_17.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-18",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_18.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-19",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_19.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-20",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_20.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-21",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_21.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-22",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_22.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-23",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_23.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-24",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_24.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-25",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_25.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-26",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_26.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-27",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_27.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-28",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_28.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "collectors-heaven-29",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/spch_29.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "the-makeover": {
+    "title": "The Makeover",
+    "location":"Project",
+    "client": "Residential Apartment",
+    "projectDate": 2021,
+    "description": "This was a fun little project! A dear friend wanted her 15-year-old apartment revamped and modernized. Heavy with classical paintings, velvet sofas and thick draped curtains, it was our task and joy to lighten it up and re-arrange the space to better accommodate the growing children. The living area switched places with the dining room to allow for a larger sofa and TV, the kid’s area was seamlessly sealed off with metal and glass doors, and the bar was completely remodeled with our signature touch of merging multiple materials - in this case carved oak wood, bespoke marble, tinted mirrors and brass. Take a tour of the photos here then head over to our Instagram account to see the before pictures.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/sptm_01.jpg?v=1717928549&width=2560",
+    "images": [
+      {
+        "id": "the-makeover-1",
+        "url": "https://shewekar.com/cdn/shop/files/sptm_01.jpg?v=1717928549&width=2560",
+        "alt": "The Makeover",
+        "description": "The Makeover",
+        "isHero": true
+      },
+      {
+        "id": "the-makeover-2",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_02.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-3",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_03.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-4",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_04.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-5",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_05.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-6",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_06.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-7",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_07.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-8",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_08.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-9",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_09.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-10",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_10.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-11",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_11.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-12",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_12.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-13",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_13.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-14",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_14.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-15",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_15.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-16",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_16.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-17",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_17.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-18",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_18.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-19",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_19.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      },
+      {
+        "id": "the-makeover-20",
+        "url": "https://be23a6-a2.myshopify.com/cdn/shop/files/sptm_20.jpg",
+        "alt": "Project Image",
+        "description": "Project Image",
+        "isHero": false
+      }
+    ]
+  },
+  "villa-natura": {
+  "title": "Villa Natura – 2022 Award Winner",
+  "location":"Project",
+  "client": "Hacienda Villa Natura",
+  "projectDate": "2021",
+  "description": "Inspired by the vibrant nature of the North Coast in Egypt, every corner in this summer home is a nod of love and respect to the sea, sky and colorful flora. The masterpiece kitchenette and bar are the absolute embodiment of this inspiration; the kitchenette mimics an over-sized canvas made of stained veneer, while the bar legs are hand-crafted to reflect the palm trees this area is rich for.\n\nMoving outside, we see the beautiful bar that matches our beloved lotus flower with a vibrant yellow Terrazzo counter, all hugged with a very lush landscape. Going through every area and room in this house we see design details, custom-designed furniture, material choices and carefully selected accessories and art that just make this home a true pride and joy for us and its wonderful owners.\n\nWinner of The International Design & Architecture Awards for Living Space - Middle East & Africas 2022.",
+  "heroImage": "https://shewekar.com/cdn/shop/files/spvna_02.jpg?v=1717929132&width=2116",
+  "images": [
+    {
+      "id": "villa-natura-1",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_02.jpg?v=1717929132&width=2116",
+      "alt": "Villa Natura – 2022 Award Winner",
+      "description": "Villa Natura – 2022 Award Winner",
+      "isHero": true
+    },
+    {
+      "id": "villa-natura-2",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_03.jpg?v=1717929150&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-3",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_04.jpg?v=1717929157&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-4",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_05.jpg?v=1717929120&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-5",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_06.jpg?v=1717929149&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-6",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_07.jpg?v=1717929156&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-7",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_08.jpg?v=1717929111&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-8",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_09.jpg?v=1717929154&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-9",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_10.jpg?v=1717929144&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-10",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_11.jpg?v=1717929148&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-11",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_12.jpg?v=1717929119&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-12",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_13.jpg?v=1717929095&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-13",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_14.jpg?v=1717929139&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-14",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_15.jpg?v=1717929146&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-15",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_16.jpg?v=1717929117&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-16",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_17.jpg?v=1717929121&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-17",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_18.jpg?v=1717929156&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-18",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_19.jpg?v=1717929153&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-19",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_20.jpg?v=1717929158&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-20",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_21.jpg?v=1717929160&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-21",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_22.jpg?v=1717929161&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-22",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_23.jpg?v=1717929145&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-23",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_24.jpg?v=1717929148&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-24",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_25.jpg?v=1717929132&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-25",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_26.jpg?v=1717929149&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-26",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_27.jpg?v=1717929155&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-27",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_28.jpg?v=1717929143&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-28",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_29.jpg?v=1717929154&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-29",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_30.jpg?v=1717929134&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-30",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_31.jpg?v=1717929132&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-31",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_32.jpg?v=1717929159&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-32",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_33.jpg?v=1717929156&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-33",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_34.jpg?v=1717929147&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-34",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_35.jpg?v=1717929155&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-35",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_36.jpg?v=1717929147&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-36",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_37.jpg?v=1717929133&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-37",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_38.jpg?v=1717929139&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-38",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_39.jpg?v=1717929161&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-39",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_40.jpg?v=1717929109&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-40",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_41.jpg?v=1717929131&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-41",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_42.jpg?v=1717929124&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-42",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_43.jpg?v=1717929115&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-43",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_44.jpg?v=1717929133&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-44",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_45.jpg?v=1717929101&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-45",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_46.jpg?v=1717929116&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-46",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_47.jpg?v=1717929123&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-47",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_48.jpg?v=1717929085&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-48",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_49.jpg?v=1717929104&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-49",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_50.jpg?v=1717929119&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    },
+    {
+      "id": "villa-natura-50",
+      "url": "https://shewekar.com/cdn/shop/files/spvna_51.jpg?v=1717929160&width=2116",
+      "alt": "Villa Natura",
+      "description": "Villa Natura"
+    }
+  ]
+  },
+  "zamalek-apartment": {
+    "title": "Zamalek Apartment",
+    "location":"Project",
+    "client": "Residential Apartment",
+    "projectDate": "2020",
+    "description": "This is truly what designing with a soul looks like. The project was a beautiful sunny Zamalek apartment that needed a complete makeover for a family moving in with their own handful of collectables and memories. The main focus here was to integrate the previously owned furniture and artwork with new ones and fresh ideas to create a layering of eras and styles. The eclectic design was further elevated with bold colors, some timeless Shewekar pieces and art deco influences.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/spza_02.jpg?v=1717929641&width=2116",
+    "images": [
+      {
+        "id": "zamalek-apartment-1",
+        "url": "https://shewekar.com/cdn/shop/files/spza_02.jpg?v=1717929641&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment",
+        "isHero": true
+      },
+      {
+        "id": "zamalek-apartment-2",
+        "url": "https://shewekar.com/cdn/shop/files/spza_03.jpg?v=1717929644&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-3",
+        "url": "https://shewekar.com/cdn/shop/files/spza_04.jpg?v=1717929643&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-4",
+        "url": "https://shewekar.com/cdn/shop/files/spza_05.jpg?v=1717929640&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-5",
+        "url": "https://shewekar.com/cdn/shop/files/spza_06.jpg?v=1717929644&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-6",
+        "url": "https://shewekar.com/cdn/shop/files/spza_07.jpg?v=1717929643&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-7",
+        "url": "https://shewekar.com/cdn/shop/files/spza_08.jpg?v=1717929643&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-8",
+        "url": "https://shewekar.com/cdn/shop/files/spza_09.jpg?v=1717929638&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-9",
+        "url": "https://shewekar.com/cdn/shop/files/spza_10.jpg?v=1717929640&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-10",
+        "url": "https://shewekar.com/cdn/shop/files/spza_11.jpg?v=1717929634&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-11",
+        "url": "https://shewekar.com/cdn/shop/files/spza_12.jpg?v=1717929639&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-12",
+        "url": "https://shewekar.com/cdn/shop/files/spza_13.jpg?v=1717929641&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-13",
+        "url": "https://shewekar.com/cdn/shop/files/spza_14.jpg?v=1717929640&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-14",
+        "url": "https://shewekar.com/cdn/shop/files/spza_15.jpg?v=1717929639&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-15",
+        "url": "https://shewekar.com/cdn/shop/files/spza_16.jpg?v=1717929637&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      },
+      {
+        "id": "zamalek-apartment-16",
+        "url": "https://shewekar.com/cdn/shop/files/spza_17.jpg?v=1717929639&width=2116",
+        "alt": "Zamalek Apartment",
+        "description": "Zamalek Apartment"
+      }
+    ]
+  },
+
+  "hacienda-white-villa": {
+    "title": "Hacienda White Villa",
+    "location":"Project",
+    "client": "Residential Villa",
+    "projectDate": "2020",
+    "description": "One of the joys of owning a summer house is being able to open up your home for shared moments with friends of all ages. For a family with teenage kids and a love for hosting, we designed the spacious terrace to offer an easy flow from socializing to dining, a generous pool that serves as a work of art in itself, and multiple seating areas that allow for both large gatherings and cozy chats.\n\nThe house truly exudes the spirit of summer in every corner, with cool surfaces of marble, the natural warmth of wood and a balance of grey and blues to draw in the tones of the surrounding nature. The client desired modern clean lines and we honored that with a timeless design that will always remain fresh and mature gracefully over the years.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/sphwv_02.jpg?v=1717929957&width=2116",
+    "images": [
+      {
+        "id": "hacienda-white-villa-1",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_02.jpg?v=1717929957&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa",
+        "isHero": true
+      },
+      {
+        "id": "hacienda-white-villa-2",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_03.jpg?v=1717929954&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-3",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_04.jpg?v=1717929956&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-4",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_05.jpg?v=1717929955&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-5",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_06.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-6",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_07.jpg?v=1717929961&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-7",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_08.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-8",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_09.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-9",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_10.jpg?v=1717929960&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-10",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_11.jpg?v=1717929956&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-11",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_12.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-12",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_13.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-13",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_14.jpg?v=1717929963&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-14",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_15.jpg?v=1717929957&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-15",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_16.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-16",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_17.jpg?v=1717929960&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-17",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_18.jpg?v=1717929963&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-18",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_19.jpg?v=1717929956&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-19",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_20.jpg?v=1717929959&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-20",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_21.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-21",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_22.jpg?v=1717929960&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-22",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_23.jpg?v=1717929959&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-23",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_24.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      },
+      {
+        "id": "hacienda-white-villa-24",
+        "url": "https://shewekar.com/cdn/shop/files/sphwv_25.jpg?v=1717929962&width=2116",
+        "alt": "Hacienda White Villa",
+        "description": "Hacienda White Villa"
+      }
+    ]
+  },
+
+  "hacienda-beach-house": {
+    "title": "Hacienda Beach House",
+    "location":"Project",
+    "client": "Shewekar Summerhouse",
+    "projectDate": "2017",
+    "description": "This was a challenging, yet fun project to complete! Shewekar’s summerhouse is located in Hacienda compound on the North Coast. It is a family house that was not fully utilized and required transformational renovation to accommodate all family members’ needs, with an age spectrum spanning 3 generations from 4-year old children to their grandparents.\n\nEnhancing circulation to make the space more practical and functional while addressing everyone’s privacy was a challenge that we gladly took on and achieved.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/sphbh_02.jpg?v=1717930220&width=2116",
+    "images": [
+      {
+        "id": "hacienda-beach-house-1",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_02.jpg?v=1717930220&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House",
+        "isHero": true
+      },
+      {
+        "id": "hacienda-beach-house-2",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_03.jpg?v=1717930223&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-3",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_04.jpg?v=1717930220&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-4",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_05.jpg?v=1717930223&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-5",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_06.jpg?v=1717930223&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-6",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_07.jpg?v=1717930216&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-7",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_08.jpg?v=1717930218&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-8",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_09.jpg?v=1717930223&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-9",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_10.jpg?v=1717930222&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-10",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_11.jpg?v=1717930221&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      },
+      {
+        "id": "hacienda-beach-house-11",
+        "url": "https://shewekar.com/cdn/shop/files/sphbh_12.jpg?v=1717930223&width=2116",
+        "alt": "Hacienda Beach House",
+        "description": "Hacienda Beach House"
+      }
+    ]
+  },
+
+  "hacienda-white-beach-house": {
+  "title": "Hacienda White Beach House",
+  "location":"Project",
+  "client": "Residential Villa",
+  "projectDate": "2019",
+  "description": "This summer home was originally an old house that was renovated for a family of five with young children. The aim was to create a cozy and natural feeling with a back-to-basics approach.\n\nThe project was completed with minimal costs by reusing inherited elements and combining them with pieces from local brands and showrooms.",
+  "heroImage": "https://shewekar.com/cdn/shop/files/sphwbh_02.jpg?width=2116",
+  "images": [
+    {
+      "id": "hacienda-white-beach-house-1",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_02.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House",
+      "isHero": true
+    },
+    {
+      "id": "hacienda-white-beach-house-2",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_03.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-3",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_04.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-4",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_05.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-5",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_06.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-6",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_07.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-7",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_08.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-8",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_09.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-9",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_10.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-10",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_11.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-11",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_12.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-12",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_13.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-13",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_14.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-14",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_15.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-15",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_16.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    },
+    {
+      "id": "hacienda-white-beach-house-16",
+      "url": "https://shewekar.com/cdn/shop/files/sphwbh_17.jpg?width=2116",
+      "alt": "Hacienda White Beach House",
+      "description": "Hacienda White Beach House"
+    }
+  ]
+  },
+
+  "palm-hills-villa": {
+    "title": "Palm Hills Villa",
+    "location":"Project",
+    "client": "Residential Villa in Cairo",
+    "projectDate": "2017",
+    "description": "A villa in Cairo designed with a modern, simple and functional approach. The design reflects the personality of the clients while focusing on practicality and accessibility for the family.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/spphv_02.jpg?width=2116",
+    "images": [
+      {
+        "id": "palm-hills-villa-1",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_02.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa",
+        "isHero": true
+      },
+      {
+        "id": "palm-hills-villa-2",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_03.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-3",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_04.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-4",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_05.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-5",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_06.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-6",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_07.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-7",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_08.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-8",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_09.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-9",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_10.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-10",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_11.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-11",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_12.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-12",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_13.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-13",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_14.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-14",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_15.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-15",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_16.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-16",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_17.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-17",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_18.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      },
+      {
+        "id": "palm-hills-villa-18",
+        "url": "https://shewekar.com/cdn/shop/files/spphv_19.jpg?width=2116",
+        "alt": "Palm Hills Villa",
+        "description": "Palm Hills Villa"
+      }
+    ]
+  },
+
+  "maadi-apartment": {
+    "title": "Maadi Apartment",
+    "location":"Project",
+    "client": "Residential Apartment in Cairo",
+    "projectDate": "2016",
+    "description": "The apartment originally consisted of two separate units with many beams and low ceilings. The challenge was to transform the spaces into a seamless design with a unified flow throughout the home.\n\nFurniture was carefully selected during shopping trips in the United States, along with custom-made pieces created specifically for the apartment. The final result is an elegant contemporary home with a comfortable and cohesive atmosphere.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/spmap_02.jpg?width=2116",
+    "images": [
+      {
+        "id": "maadi-apartment-1",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_02.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment",
+        "isHero": true
+      },
+      {
+        "id": "maadi-apartment-2",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_03.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-3",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_04.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-4",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_05.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-5",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_06.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-6",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_07.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-7",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_08.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-8",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_09.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-9",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_10.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-10",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_11.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-11",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_12.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-12",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_13.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-13",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_14.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-14",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_15.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-15",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_16.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-16",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_17.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-17",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_18.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-18",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_19.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-19",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_20.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-20",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_21.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-21",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_22.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-22",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_23.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-23",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_24.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-24",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_25.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-25",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_26.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-26",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_27.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-27",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_28.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-28",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_29.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-29",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_30.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-30",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_31.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-31",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_32.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-32",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_33.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-33",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_34.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      },
+      {
+        "id": "maadi-apartment-34",
+        "url": "https://shewekar.com/cdn/shop/files/spmap_35.jpg?width=2116",
+        "alt": "Maadi Apartment",
+        "description": "Maadi Apartment"
+      }
+    ]
+  },
+
+  "beanos-cafe-gem": {
+    "title": "Beano’s Café – GEM",
+    "location": "Commercial",
+    "client": "Beano's Café",
+    "projectDate": "2023",
+    "description": "The design intention for Beano’s GEM was to stay true to the brand while paying homage to our Egyptian heritage and its iconic representation at the GEM. Upon entry one is taken in awe by the rich brass tree inspired by the Banyan tree that grows on Egyptian soil and is said to make wishes come true. Its aerial roots are beautifully stylized into swirly delicate folds of perforated brass sheets. The counter is made of roughly-cut Aswani granite, while the lighting is custom-designed and made from our beloved Alabaster that was widely used in Ancient Egypt. In ancient times, the color blue represented the heavens, the dominion of gods, as well as water and the primeval flood, represented here in the custom-made blue glass with the papyrus plants drawn on it. The cozy neighborhood-café feel was not lost when transported to the GEM, it was simply elevated to match the grandiose and honor of that space. The eclectic feel of matching materials, the color palate and the delicate modern lines of the furniture was all maintained to ensure a thread of continuity between this and other Beano’s branches.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/Beanos_GEM_03-scaled.jpg?v=1716730372&width=1110",
+    "images": [
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_02-scaled.jpg?v=1716730378&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_10-scaled_7130bd74-6da5-4a82-9519-a0139e5531ab.jpg?v=1716730371&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_15-scaled.jpg?v=1716730372&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_08-scaled.jpg?v=1716730372&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_17-scaled.jpg?v=1716730376&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_18-scaled.jpg?v=1716730375&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_04-scaled.jpg?v=1716730373&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_23-scaled.jpg?v=1716730373&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_05-scaled.jpg?v=1716730373&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_03-scaled.jpg?v=1716730372&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_26-scaled_b3578da6-f5fa-4273-9951-0bdbd035f594.jpg?v=1716730376&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_36-scaled.jpg?v=1716730376&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_12-scaled.jpg?v=1716730376&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_30-scaled.jpg?v=1716730377&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Beanos_GEM_34-scaled_1.jpg?v=1716730377&width=1000"
+      }
+    ]
+  },
+
+  "la-poire-bistro-downtown-mall-2024": {
+    "title": "La Poire Bistro, Downtown Mall, 2024",
+    "location": "Commercial",
+    "client": "",
+    "projectDate": "",
+    "description": "As La Poire embarked on rebranding, they reached out to us to work on their interiors to complement their new look and F&B offering. As you enter you’re immediately welcomed by their beautiful deep green shade, adding instant warmth to the space. The many dangling tassel chandeliers add life and a touch of “French bistro” to elevate the design and just make you feel special. And for those wanting a quick treat, right next door is your favorite local ice cream shop Stavolta, designed in a refreshing coral color to take away that summer heat.",
+    "heroImage": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1647_High_Res.jpg?v=1729519984&width=1110",
+    "images": [
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1586_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1552_High_Res.jpg?v=1729520013&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1562_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1617_High_Res.jpg?v=1729520015&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1626_High_Res.jpg?v=1729520015&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1632_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1656_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1663_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1670_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1673_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1675_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1680_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1693_High_Res.jpg?v=1729520016&width=1000"
+      },
+      {
+        "url": "https://shewekar.com/cdn/shop/files/Shewekar_X_Lapoir_Bistro1694_High_Res.jpg?v=1729520016&width=1000"
+      }
+    ]
+  },
+"the-design-show-2022": {
+  "title": "The Design Show 2022",
+  "subtitle": "Project",
+  "date": "2022",
+  "client": "TDS Exhibition",
+  "description": "Shewekar was thrilled to be part of Egypt’s largest and most prestigious design show that’s now leading the entire MENA region; The Design Show 2022. After our success in several international exhibitions, namely in New York’s Design Wanted and The Design Week in Paris, it was our honor to showcase our 2022 collection in a full-fledged exhibition space. Known for her reimagined Egyptian-inspired designs, the exhibition space was designed to evoke a sense of history and serenity. With motifs and hues borrowed from our rich Pharaonic heritage, the space was the perfect backdrop for our latest ethereal collection Celestial. The Collection: As we leave two years of pandemic behind us, returning to normal may not be sufficient. We need to strive for more refined standards and elevate our senses to loftier heights. That’s why we dubbed our new luxury collection, Celestial. Headlining this timeless collection is our Signature-Shewkar-Straw; an all but lost traditional art custom that we brought to furniture design and manufacturing, after 18 months of extensive research and development.",
+  "images": [
+    {
+      "id": "the-design-show-2022-1",
+      "url": "https://shewekar.com/cdn/shop/files/01_9bfc586a-08ca-4f7b-befb-57024af715cc.jpg?v=1717511232&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022",
+      "isHero": true
+    },
+    {
+      "id": "the-design-show-2022-2",
+      "url": "https://shewekar.com/cdn/shop/files/02_653cf24e-5bf9-418b-bd20-99751e427aad.jpg?v=1717511231&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-3",
+      "url": "https://shewekar.com/cdn/shop/files/03_a10c201b-0dc4-41fa-84e0-c48722966e72.jpg?v=1717511234&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-4",
+      "url": "https://shewekar.com/cdn/shop/files/04_e5d54d67-9870-4092-bd48-ea9567580e95.jpg?v=1717511234&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-5",
+      "url": "https://shewekar.com/cdn/shop/files/05_e8bd103a-e88e-4346-b819-c50ac30c985b.jpg?v=1717511233&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-6",
+      "url": "https://shewekar.com/cdn/shop/files/06_cf3b21b6-8086-4cc1-853a-bfb143d2a74a.jpg?v=1717511234&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-7",
+      "url": "https://shewekar.com/cdn/shop/files/07_34320070-ef4c-4fac-b6db-dff8676b6846.jpg?v=1717511229&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-8",
+      "url": "https://shewekar.com/cdn/shop/files/08_3158502b-8a7d-4e8e-893e-b5621232112b.jpg?v=1717511234&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-9",
+      "url": "https://shewekar.com/cdn/shop/files/09_58786360-559f-412b-8677-e0ab0191e5ad.jpg?v=1717511233&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-10",
+      "url": "https://shewekar.com/cdn/shop/files/10_37321a65-bd9a-45b9-b03c-c3b17af707e5.jpg?v=1717511233&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-11",
+      "url": "https://shewekar.com/cdn/shop/files/11_f41b48bd-1af1-4aa8-ac9b-04dac35c4915.jpg?v=1717511231&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    },
+    {
+      "id": "the-design-show-2022-12",
+      "url": "https://shewekar.com/cdn/shop/files/12_8de94f56-c8a1-4a40-b445-e0f8fdf2cc33.jpg?v=1717511233&width=1000",
+      "alt": "The Design Show 2022",
+      "description": "The Design Show 2022"
+    }
+  ]
+},
+
+"beanos-cafe-maadi": {
+  "title": "Beano’s Café – Maadi",
+  "subtitle": "Project",
+  "date": "2022",
+  "client": "Beano's Café",
+  "description": "Beano’s is your typical neighborhood café, with multiple branches across Cairo and other major cities in Egypt. The Maadi branch was the second to be re-designed by Shewekar to add more character and glamour, without compromising on the cozy feel. Doing what she does best, she fused terrazzo, brass, natural oak wood, cané and a custom-designed coffee-bean pattern to develop a unique eclectic look for this favorite Egyptian chain.",
+  "images": [
+    {
+      "id": "beanos-cafe-maadi-1",
+      "url": "https://shewekar.com/cdn/shop/files/07-1-scaled.jpg?v=1717510583&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi",
+      "isHero": true
+    },
+    {
+      "id": "beanos-cafe-maadi-2",
+      "url": "https://shewekar.com/cdn/shop/files/09-1-scaled_3fbfb9d3-be73-4718-ba0e-90f7ce47137e.jpg?v=1717510586&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-3",
+      "url": "https://shewekar.com/cdn/shop/files/03-1-scaled.jpg?v=1717510583&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-4",
+      "url": "https://shewekar.com/cdn/shop/files/02-1-scaled.jpg?v=1717510586&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-5",
+      "url": "https://shewekar.com/cdn/shop/files/011-1-scaled.jpg?v=1717510586&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-6",
+      "url": "https://shewekar.com/cdn/shop/files/01-1-scaled.jpg?v=1717510586&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-7",
+      "url": "https://shewekar.com/cdn/shop/files/010-2-scaled.jpg?v=1717510584&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-8",
+      "url": "https://shewekar.com/cdn/shop/files/017-1-scaled.jpg?v=1717510581&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-9",
+      "url": "https://shewekar.com/cdn/shop/files/016-1-scaled.jpg?v=1717510580&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-10",
+      "url": "https://shewekar.com/cdn/shop/files/026-scaled.jpg?v=1717510581&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    },
+    {
+      "id": "beanos-cafe-maadi-11",
+      "url": "https://shewekar.com/cdn/shop/files/024-scaled.jpg?v=1717510579&width=1000",
+      "alt": "Beano’s Café – Maadi",
+      "description": "Beano’s Café – Maadi"
+    }
+  ]
+},
+
+"beanos-cafe-zamalek": {
+  "title": "Beano’s Café – Zamalek",
+  "subtitle": "Project",
+  "date": "2022",
+  "client": "Beano's Café",
+  "description": "Beano’s is your typical neighborhood café, with multiple branches across Cairo and other major cities in Egypt. Starting with the beloved Zamalek branch, Shewekar re-designed it to add more character and glamour, without compromising on the cozy feel. Doing what she does best, she fused terrazzo, brass, natural oak wood, cané and a custom-designed coffee-bean pattern to develop a unique eclectic look for this favorite Egyptian chain.",
+  "images": [
+    {
+      "id": "beanos-cafe-zamalek-1",
+      "url": "https://shewekar.com/cdn/shop/files/01.jpg?v=1717510844&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek",
+      "isHero": true
+    },
+    {
+      "id": "beanos-cafe-zamalek-2",
+      "url": "https://shewekar.com/cdn/shop/files/02.jpg?v=1717510843&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    },
+    {
+      "id": "beanos-cafe-zamalek-3",
+      "url": "https://shewekar.com/cdn/shop/files/03.jpg?v=1717510843&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    },
+    {
+      "id": "beanos-cafe-zamalek-4",
+      "url": "https://shewekar.com/cdn/shop/files/04.jpg?v=1717510844&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    },
+    {
+      "id": "beanos-cafe-zamalek-5",
+      "url": "https://shewekar.com/cdn/shop/files/05.jpg?v=1717510843&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    },
+    {
+      "id": "beanos-cafe-zamalek-6",
+      "url": "https://shewekar.com/cdn/shop/files/06.jpg?v=1717510844&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    },
+    {
+      "id": "beanos-cafe-zamalek-7",
+      "url": "https://shewekar.com/cdn/shop/files/07.jpg?v=1717510844&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    },
+    {
+      "id": "beanos-cafe-zamalek-8",
+      "url": "https://shewekar.com/cdn/shop/files/08.jpg?v=1717510844&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    },
+    {
+      "id": "beanos-cafe-zamalek-9",
+      "url": "https://shewekar.com/cdn/shop/files/09.jpg?v=1717510843&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    },
+    {
+      "id": "beanos-cafe-zamalek-10",
+      "url": "https://shewekar.com/cdn/shop/files/10.jpg?v=1717510845&width=1000",
+      "alt": "Beano’s Café – Zamalek",
+      "description": "Beano’s Café – Zamalek"
+    }
+  ]
+},
+
+"amphoras-beach-resort": {
+  "title": "Amphoras Beach Resort",
+  "subtitle": "Project",
+  "date": "2022",
+  "client": "Amphoras Beach Resort",
+  "description": "Amphoras Beach is a 500 rooms resort located in the beautiful town of Sharm Elsheikh in the Red Sea area. Originally designed in the 90’s it was in dire need of a transformation to bring it into the 21st century, and that is exactly what we did. Starting with the façade, stepping onto the terrace, into the room and all the way to the signage of the room number, Shewekar left no detail unturned to ensure a unified, modern and calming design throughout the guest experience.",
+  "images": [
+    {
+      "id": "amphoras-beach-resort-1",
+      "url": "https://shewekar.com/cdn/shop/files/01_922591e2-955f-496a-a7e1-2f793101495f.jpg?v=1717511030&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort",
+      "isHero": true
+    },
+    {
+      "id": "amphoras-beach-resort-2",
+      "url": "https://shewekar.com/cdn/shop/files/02_dbb0224d-1d0e-4ec2-b1d3-0f15ceadc52b.jpg?v=1717511032&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-3",
+      "url": "https://shewekar.com/cdn/shop/files/03_974ba2e3-829f-4dcd-b301-5af38705e947.jpg?v=1717511032&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-4",
+      "url": "https://shewekar.com/cdn/shop/files/04_793958e3-df21-498e-a728-e61406570c63.jpg?v=1717511038&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-5",
+      "url": "https://shewekar.com/cdn/shop/files/05_996c4437-abf9-4dd5-a9f6-da3bf9b66bef.jpg?v=1717511032&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-6",
+      "url": "https://shewekar.com/cdn/shop/files/06_60c0c0c7-e9ef-476c-a7a5-568c2ca37b86.jpg?v=1717511032&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-7",
+      "url": "https://shewekar.com/cdn/shop/files/07_dffec25e-c6cd-41eb-81de-b8fccdc51778.jpg?v=1717511031&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-8",
+      "url": "https://shewekar.com/cdn/shop/files/08_517e9ad5-2358-4577-8aac-32d606e0be35.jpg?v=1717511035&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-9",
+      "url": "https://shewekar.com/cdn/shop/files/09_8f8003db-5e49-48c3-877a-eb2a4edda025.jpg?v=1717511037&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-10",
+      "url": "https://shewekar.com/cdn/shop/files/10_53b0a53b-78fb-4634-b237-872acb9fb0ef.jpg?v=1717511034&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-11",
+      "url": "https://shewekar.com/cdn/shop/files/11.jpg?v=1717511030&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-12",
+      "url": "https://shewekar.com/cdn/shop/files/12.jpg?v=1717511035&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-13",
+      "url": "https://shewekar.com/cdn/shop/files/13.jpg?v=1717511035&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    },
+    {
+      "id": "amphoras-beach-resort-14",
+      "url": "https://shewekar.com/cdn/shop/files/14.jpg?v=1717511036&width=1000",
+      "alt": "Amphoras Beach Resort",
+      "description": "Amphoras Beach Resort"
+    }
+  ]
+},
+
+"the-knowledge-hub": {
+  "title": "The Knowledge Hub",
+  "subtitle": "Project",
+  "description": "Working with Gensler, a world-renowned architecture firm, and their local consultant Die Stadt on a visionary educational project was a truly inspirational project for Shewekar. In designing the interiors our aim was to reflect a feel of innovation, inclusiveness and forward thinking, while ensuring the utmost functionality and durability. The Knowledge Hub is El Sewedy’s education multidisciplinary flagship project. It consists of different international universities clustered together to address the growing need for a higher education in Egypt. TKH and Coventry University joined forces to prepare local and international students for a competitive global career.",
+  "images": [
+    {
+      "id": "the-knowledge-hub-1",
+      "url": "https://shewekar.com/cdn/shop/files/01_c561f95e-5eb6-4e75-9210-6f1651b9d3f3.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub",
+      "isHero": true
+    },
+    {
+      "id": "the-knowledge-hub-2",
+      "url": "https://shewekar.com/cdn/shop/files/02_8c4a6b02-9afb-474b-b718-678581621ac6.jpg?v=1717511393&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-3",
+      "url": "https://shewekar.com/cdn/shop/files/03_2d1459f3-a896-48b8-aea1-cc70ea4f64c4.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-4",
+      "url": "https://shewekar.com/cdn/shop/files/04_5fe0ae7d-d495-496c-abf1-bfa8370b4dee.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-5",
+      "url": "https://shewekar.com/cdn/shop/files/05_ea587c96-c782-4370-918d-8deca11d46e5.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-6",
+      "url": "https://shewekar.com/cdn/shop/files/06_8026950d-2548-4530-bc1a-41e4e9be7a6e.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-7",
+      "url": "https://shewekar.com/cdn/shop/files/08_22b60f76-1fed-4e75-8069-20a80b8427a0.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-8",
+      "url": "https://shewekar.com/cdn/shop/files/09_75880b26-b016-4ca8-aa56-d639995cac6d.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-9",
+      "url": "https://shewekar.com/cdn/shop/files/10_2d7dcc80-c2eb-4eaa-8c31-1632052ef232.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-10",
+      "url": "https://shewekar.com/cdn/shop/files/11_bfb6cddb-4d6c-4cb3-a68c-7326c55a9b5c.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-11",
+      "url": "https://shewekar.com/cdn/shop/files/12_6e2c7cf9-9fc2-4027-9027-a285131ecb65.jpg?v=1717511393&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-12",
+      "url": "https://shewekar.com/cdn/shop/files/13_e741eecd-16d5-437a-b649-8af14dcf2a56.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    },
+    {
+      "id": "the-knowledge-hub-13",
+      "url": "https://shewekar.com/cdn/shop/files/14_ce0f3346-2f29-495e-9a7c-4731e29fdf0e.jpg?v=1717511394&width=1000",
+      "alt": "The Knowledge Hub",
+      "description": "The Knowledge Hub"
+    }
+  ]
+},
+
+"tamara-restaurant-chain": {
+  "title": "Tamara Restaurant Chain",
+  "subtitle": "Project",
+  "description": "Over the span of six year we designed the interiors and furniture of 7 branches of a popular restaurant chain, which were greatly inspired by the Lebanese way of eating. The Lebanese dining culture highlights sharing food, most popularly mezza, where the dishes feature colorful ingredients that we wanted to brightly reflect in the restaurant interiors. Endless numbers of lanterns were scattered around the space to reflect the richness and generosity of the Lebanese culture. These were matched with staircase handrails (mashrabeyat), colored glass and a wide array of patterned fabrics that brought together a rich, eclectic and indulging experience.",
+  "images": [
+    {
+      "id": "tamara-restaurant-chain-1",
+      "url": "https://shewekar.com/cdn/shop/files/01_34e2bf95-5238-4013-b7aa-e170c18c734c.jpg?v=1717512478&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain",
+      "isHero": true
+    },
+    {
+      "id": "tamara-restaurant-chain-2",
+      "url": "https://shewekar.com/cdn/shop/files/02_7ed77724-3b92-4721-a90d-942a2c3b6b84.jpg?v=1717512477&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-3",
+      "url": "https://shewekar.com/cdn/shop/files/03_dc43ad98-542c-4b22-9a25-75a701d6be5f.jpg?v=1717512476&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-4",
+      "url": "https://shewekar.com/cdn/shop/files/04_e02dda80-0c94-4d83-b22f-e626c104b0a5.jpg?v=1717512478&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-5",
+      "url": "https://shewekar.com/cdn/shop/files/05_b512a0ea-cbf8-40e2-bc6c-2fd4f681bc7b.jpg?v=1717512477&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-6",
+      "url": "https://shewekar.com/cdn/shop/files/06_953b4c0f-34a0-4173-84ea-89b3ac481152.jpg?v=1717512478&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-7",
+      "url": "https://shewekar.com/cdn/shop/files/07_dd3c2484-df50-41c9-9fc9-4f263a5a6b5b.jpg?v=1717512476&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-8",
+      "url": "https://shewekar.com/cdn/shop/files/08_f26feac1-ccaf-4845-9ff3-241eeca6fb47.jpg?v=1717512477&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-9",
+      "url": "https://shewekar.com/cdn/shop/files/09_14bf3744-50d0-45e1-9283-f54e2e3b822d.jpg?v=1717512477&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-10",
+      "url": "https://shewekar.com/cdn/shop/files/10_94f081fa-c5a3-4ad1-bb74-f5c2ba0b0352.jpg?v=1717512474&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-11",
+      "url": "https://shewekar.com/cdn/shop/files/11_f2e56522-742b-4362-919d-8e5ef555fba2.jpg?v=1717512477&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-12",
+      "url": "https://shewekar.com/cdn/shop/files/12_26457585-83fe-4102-8ee0-aaf415b5966b.jpg?v=1717512477&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-13",
+      "url": "https://shewekar.com/cdn/shop/files/13_96d60400-d708-49d0-aae0-99c5ed143265.jpg?v=1717512471&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-14",
+      "url": "https://shewekar.com/cdn/shop/files/14_17dfa1e4-ca9a-4a18-9494-f97b528c762a.jpg?v=1717512473&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-15",
+      "url": "https://shewekar.com/cdn/shop/files/15.jpg?v=1717512471&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-16",
+      "url": "https://shewekar.com/cdn/shop/files/16.jpg?v=1717512473&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-17",
+      "url": "https://shewekar.com/cdn/shop/files/17.jpg?v=1717512471&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    },
+    {
+      "id": "tamara-restaurant-chain-18",
+      "url": "https://shewekar.com/cdn/shop/files/18.jpg?v=1717512473&width=1000",
+      "alt": "Tamara Restaurant Chain",
+      "description": "Tamara Restaurant Chain"
+    }
+  ]
+},
+
+"movenpick-resort-hurghada": {
+  "title": "Movenpick Resort Hurghada",
+  "subtitle": "Project",
+  "date": "2012",
+  "client": "Movenpick Resort",
+  "description": "The project was to renovate the entire lobby including its seating arrangement and interiors, as well as the interior of the hotel rooms. The budget was limited but we are firm believers that even the simplest changes can make a great difference. Our main goal was to reorganize the lobby’s seating arrangements to become more inviting, vibrant and warm, bringing the hotel guests together and minimizing unused space. We decided to keep the ancient Egyptian-inspired interiors and give it a revamped art deco flair for a contemporary feel. We started off by re-upholstering the furniture with brighter colors and brought the seating arrangements closer to each other to transform the lobby into a cozy place for guests to hang out and mingle. We covered the floor with a huge carpet to compensate for the outdated pattern of tiles and yet accommodate the assigned budget. We removed non-essential clutter in the lobby to give it a sleek, yet comfortable look. And to add glamour and grandeur we installed an enormous chandelier lighting fixture to crown the lobby. As for the rooms, we redesigned their interiors to give them more color and chose new furnishing with a simple modern look and feel.",
+  "images": [
+    {
+      "id": "movenpick-resort-hurghada-1",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-5.jpg?v=1717596406&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada",
+      "isHero": true
+    },
+    {
+      "id": "movenpick-resort-hurghada-2",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-1.jpg?v=1717596405&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-3",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-2.jpg?v=1717596407&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-4",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-3.jpg?v=1717596407&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-5",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-4.jpg?v=1717596405&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-6",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-6.jpg?v=1717596408&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-7",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-7.jpg?v=1717596408&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-8",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-8.jpg?v=1717596408&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-9",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-9.jpg?v=1717596405&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-10",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-10.jpg?v=1717596407&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-11",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Lobby-11.jpg?v=1717596408&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-12",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Restrooms-1.jpg?v=1717596394&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-13",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Restrooms-3.jpg?v=1717596401&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-14",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Restrooms-5.jpg?v=1717596395&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-15",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Restrooms-2.jpg?v=1717596396&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-16",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Restrooms-4.jpg?v=1717596399&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-17",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-1.jpg?v=1717596397&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-18",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-2.jpg?v=1717596399&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-19",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-3.jpg?v=1717596399&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-20",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-4.jpg?v=1717596403&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-21",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-5.jpg?v=1717596400&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-22",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-6.jpg?v=1717596400&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-23",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-7.jpg?v=1717596397&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-24",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-8.jpg?v=1717596409&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-25",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-9.jpg?v=1717596408&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-26",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-10.jpg?v=1717596408&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-27",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-11.jpg?v=1717596397&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-28",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-12.jpg?v=1717596405&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-29",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-13.jpg?v=1717596400&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-30",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-14.jpg?v=1717596408&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-31",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-Room-15.jpg?v=1717596408&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-32",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-The-Loggia-1.jpg?v=1717596407&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-33",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-The-Loggia-2.jpg?v=1717596405&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-34",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-The-Loggia-3.jpg?v=1717596406&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-35",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-The-Loggia-4.jpg?v=1717596405&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    },
+    {
+      "id": "movenpick-resort-hurghada-36",
+      "url": "https://shewekar.com/cdn/shop/files/Movenpick-Resort-Hurghada2012-The-Loggia-6.jpg?v=1717596405&width=1000",
+      "alt": "Movenpick Resort Hurghada",
+      "description": "Movenpick Resort Hurghada"
+    }
+  ]
+},
+
+"emaar-up-town-cairo": {
+  "title": "Emaar Up Town Cairo",
+  "subtitle": "Project",
+  "date": "2006",
+  "client": "Emaar",
+  "description": "When working on real estate mockups it is key to develop concepts that are distinctly different than one another, and to ensure a personal touch so clients feel like they’re right at home. With this project we worked on perfecting three looks across three different budget ranges; a Classic all-time favorite, a Contemporary younger look, and an Arabian design deeply rooted in our heritage.",
+  "images": [
+    {
+      "id": "emaar-up-town-cairo-1",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_01.jpg?v=1717513575&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo",
+      "isHero": true
+    },
+    {
+      "id": "emaar-up-town-cairo-2",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_02.jpg?v=1717513565&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-3",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_03.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-4",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_04.jpg?v=1717513567&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-5",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_05.jpg?v=1717513566&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-6",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_06.jpg?v=1717513566&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-7",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_07.jpg?v=1717513572&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-8",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_08.jpg?v=1717513573&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-9",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_09.jpg?v=1717513572&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-10",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_10.jpg?v=1717513573&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-11",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_11.jpg?v=1717513575&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-12",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_12.jpg?v=1717513573&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-13",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_13.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-14",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_14.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-15",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_15.jpg?v=1717513575&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-16",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_16.jpg?v=1717513575&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-17",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_17.jpg?v=1717513575&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-18",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_18.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-19",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_19.jpg?v=1717513573&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-20",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_20.jpg?v=1717513575&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-21",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_21.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-22",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_22.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-23",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_23.jpg?v=1717513571&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-24",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_24.jpg?v=1717513573&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-25",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_25.jpg?v=1717513573&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-26",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_26.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-27",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_27.jpg?v=1717513572&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-28",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_28.jpg?v=1717513572&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-29",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_29.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-30",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_30.jpg?v=1717513573&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-31",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_32.jpg?v=1717513573&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-32",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_33.jpg?v=1717513575&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-33",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_34.jpg?v=1717513572&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-34",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_35.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-35",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_36.jpg?v=1717513575&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-36",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_37.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-37",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_38.jpg?v=1717513572&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    },
+    {
+      "id": "emaar-up-town-cairo-38",
+      "url": "https://shewekar.com/cdn/shop/files/emar_uptown_31.jpg?v=1717513574&width=1000",
+      "alt": "Emaar Up Town Cairo",
+      "description": "Emaar Up Town Cairo"
+    }
+  ]
+}
+}

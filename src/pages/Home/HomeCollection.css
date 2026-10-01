@@ -1,0 +1,806 @@
+/* =====================================================
+   HOME INTRO
+===================================================== */
+
+.home-intro {
+  width: 100%;
+  background: #f5f5f3;
+  padding: 40px 3vw;
+}
+
+.home-intro-content {
+  width: 89%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.section-label {
+  margin: 0 0 10px;
+
+  font-size: 12px;
+  line-height: 1;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #222;
+}
+
+.home-intro-text {
+  width: 100%;
+  max-width: 1600px;
+
+  margin: 0 0 20px;
+
+  font-size: clamp(8px, 2vw, 12px);
+  line-height: 1.42;
+
+  color: #282828;
+}
+
+.home-intro-text:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =====================================================
+   COLLECTIONS
+===================================================== */
+
+.home-collections {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+  max-height: 680px;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+
+  background: #000;
+
+  clear: both;
+}
+
+.collections-track {
+  position: relative;
+
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+/* =====================================================
+   HOME COLLECTION CARD
+===================================================== */
+
+.home-collection-card {
+  position: relative;
+
+  flex: 0 0 18%;
+
+  width: auto;
+  height: 100%;
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+
+  background: transparent;
+
+  transition:
+    flex-basis 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.home-collection-card.is-active {
+  flex-basis: 64%;
+}
+
+
+/* =====================================================
+   CARD LINK
+===================================================== */
+
+.collection-card-link {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =====================================================
+   IMAGE
+===================================================== */
+
+.collection-image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+
+  margin: 0;
+  padding: 0;
+
+  transition: none;
+}
+
+
+/* =====================================================
+   DARK OVERLAY
+===================================================== */
+
+.collection-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  display: block;
+
+  background: rgba(0, 0, 0, 0.15);
+
+  pointer-events: none;
+
+  z-index: 1;
+}
+
+
+/* =====================================================
+   CONTENT
+===================================================== */
+
+.collection-content {
+  position: absolute;
+
+  left: 50px;
+  top: 55px;
+
+  bottom: auto;
+
+  width: min(470px, calc(100% - 100px));
+
+  color: #fff;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(50px);
+
+  z-index: 2;
+
+  transition:
+    opacity 0.45s ease,
+    transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1),
+    visibility 0s linear 0.45s;
+}
+
+.home-collection-card.is-active .collection-content {
+  opacity: 1;
+
+  visibility: visible;
+
+  transform: translateY(0);
+
+  transition:
+    opacity 0.45s ease 0.4s,
+    transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s,
+    visibility 0s linear 0s;
+}
+
+
+/* =====================================================
+   LABEL
+===================================================== */
+
+.collection-label {
+  display: block;
+
+  margin: 0 0 12px;
+
+  font-size: 13px;
+  line-height: 1.2;
+
+  color: #fff;
+}
+
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+.collection-content h2 {
+  margin: 0 0 16px;
+
+  font-size: clamp(30px, 3.4vw, 52px);
+  line-height: 1.05;
+
+  font-weight: 400;
+
+  color: #fff;
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.collection-content p {
+  max-width: 460px;
+
+  margin: 0 0 28px;
+
+  font-size: 15px;
+  line-height: 1.5;
+
+  font-weight: 400;
+
+  color: #fff;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.collection-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 135px;
+  min-height: 45px;
+
+  padding: 14px 25px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #fff !important;
+  color: #111 !important;
+
+  font-size: 13px;
+  line-height: 1;
+
+  text-decoration: none;
+
+  transition: none;
+}
+
+.collection-card-link:hover .collection-button {
+  background: #fff !important;
+  color: #111 !important;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1023px) {
+
+  /* =============================
+     HOME INTRO
+  ============================= */
+
+  .home-intro {
+    padding: 35px 5vw;
+  }
+
+  .home-intro-content {
+    width: 92%;
+  }
+
+  .section-label {
+    margin-bottom: 12px;
+
+    font-size: 9px;
+  }
+
+  .home-intro-text {
+    margin-bottom: 12px;
+
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+
+  /* =============================
+     COLLECTIONS
+  ============================= */
+
+  .home-collections {
+    width: 100%;
+
+    height: 400px;
+    min-height: 400px;
+
+    overflow: hidden;
+  }
+
+  .collections-track {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .home-collection-card {
+    flex-basis: 15%;
+
+    height: 100%;
+  }
+
+  .home-collection-card.is-active {
+    flex-basis: 70%;
+  }
+
+  .collection-content {
+    left: 25px;
+    top: 25px;
+
+    width: calc(100% - 50px);
+  }
+
+  .collection-label {
+    margin-bottom: 6px;
+
+    font-size: 9px;
+  }
+
+  .collection-content h2 {
+    margin-bottom: 9px;
+
+    font-size: 27px;
+  }
+
+  .collection-content p {
+    margin-bottom: 15px;
+
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+  .collection-button {
+    min-width: 105px;
+    min-height: 36px;
+
+    padding: 9px 16px;
+
+    font-size: 10px;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 767px) {
+
+  /* =============================
+     HOME INTRO
+  ============================= */
+
+  .home-intro {
+    width: 100%;
+
+    padding: 30px 18px 35px;
+
+    margin: 0;
+  }
+
+  .home-intro-content {
+    width: 94%;
+
+    margin: 0 auto;
+  }
+
+  .section-label {
+    margin-bottom: 12px;
+
+    font-size: 9px;
+  }
+
+  .home-intro-text {
+    margin-bottom: 10px;
+
+    font-size: 12px;
+    line-height: 1.45;
+  }
+
+
+  /* =============================
+     COLLECTIONS
+  ============================= */
+
+  .home-collections {
+  position: relative;
+
+  display: flow-root;
+
+  width: 100%;
+
+  height: auto;
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: visible;
+
+  background: #000;
+
+  clear: both;
+}
+
+.collections-track {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: visible;
+}
+
+  /* =============================
+     COLLECTION CARD
+  ============================= */
+
+  .home-collection-card,
+.home-collection-card.is-active {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+
+  height: 330px;
+  min-height: 330px;
+
+  flex: none;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+
+  background: #000;
+}
+
+  .home-collection-card + .home-collection-card {
+    margin-top: 0;
+  }
+
+
+  /* =============================
+     CARD LINK
+  ============================= */
+
+  .collection-card-link {
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* =============================
+     IMAGE
+  ============================= */
+
+  .collection-image {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+  /* =============================
+     DARK OVERLAY
+  ============================= */
+
+  .collection-overlay {
+    position: absolute;
+
+    inset: 0;
+
+    display: block;
+
+    background: rgba(0, 0, 0, 0.15);
+
+    pointer-events: none;
+
+    z-index: 1;
+  }
+
+
+  /* =============================
+     CONTENT
+  ============================= */
+
+  .collection-content,
+  .home-collection-card.is-active .collection-content {
+    position: absolute;
+
+    left: 32px;
+    right: 24px;
+    top: 38px;
+
+    width: auto;
+
+    opacity: 1;
+    visibility: visible;
+
+    transform: none;
+
+    transition: none;
+
+    z-index: 2;
+  }
+
+
+  /* =============================
+     LABEL
+  ============================= */
+
+  .collection-label {
+    display: block;
+
+    margin-bottom: 14px;
+
+    font-size: 12px;
+    line-height: 1.2;
+
+    color: #fff;
+  }
+
+
+  /* =============================
+     TITLE
+  ============================= */
+
+  .collection-content h2 {
+    margin: 0 0 17px;
+
+    font-size: 31px;
+    line-height: 1.05;
+
+    font-weight: 400;
+
+    color: #fff;
+  }
+
+
+  /* =============================
+     DESCRIPTION
+  ============================= */
+
+  .collection-content p {
+    max-width: 100%;
+
+    margin: 0 0 23px;
+
+    font-size: 14px;
+    line-height: 1.5;
+
+    font-weight: 400;
+
+    color: #fff;
+  }
+
+
+  /* =============================
+     BUTTON
+  ============================= */
+
+  .collection-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 140px;
+    min-height: 48px;
+
+    padding: 13px 24px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #fff !important;
+    color: #111 !important;
+
+    font-size: 13px;
+    line-height: 1;
+
+    transition: none;
+  }
+
+  .collection-card-link:hover .collection-button {
+    background: #fff !important;
+    color: #111 !important;
+  }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+  .home-intro {
+    padding: 25px 15px 30px;
+  }
+
+  .home-intro-content {
+    width: 96%;
+  }
+
+  .section-label {
+    margin-bottom: 10px;
+
+    font-size: 8px;
+  }
+
+  .home-intro-text {
+    margin-bottom: 8px;
+
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+
+  /* =============================
+     COLLECTIONS
+  ============================= */
+
+  .home-collection-card,
+  .home-collection-card.is-active {
+    height: 295px;
+    min-height: 295px;
+  }
+
+
+  /* =============================
+     CONTENT
+  ============================= */
+
+  .collection-content,
+  .home-collection-card.is-active .collection-content {
+    left: 27px;
+    right: 20px;
+    top: 32px;
+  }
+
+
+  /* =============================
+     LABEL
+  ============================= */
+
+  .collection-label {
+    font-size: 11px;
+
+    margin-bottom: 11px;
+  }
+
+
+  /* =============================
+     TITLE
+  ============================= */
+
+  .collection-content h2 {
+    font-size: 27px;
+
+    margin-bottom: 14px;
+  }
+
+
+  /* =============================
+     DESCRIPTION
+  ============================= */
+
+  .collection-content p {
+    font-size: 12.5px;
+
+    line-height: 1.45;
+
+    margin-bottom: 19px;
+  }
+
+
+  /* =============================
+     BUTTON
+  ============================= */
+
+  .collection-button {
+    min-width: 125px;
+    min-height: 43px;
+
+    padding: 11px 20px;
+
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .home-collections {
+    display: flow-root;
+
+    height: auto !important;
+    min-height: 990px;
+  }
+
+  .collections-track {
+    display: block;
+
+    height: auto !important;
+    min-height: 990px;
+  }
+
+  .home-collection-card,
+  .home-collection-card.is-active {
+    height: 330px;
+    min-height: 330px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .home-collections {
+    min-height: 885px;
+  }
+
+  .collections-track {
+    min-height: 885px;
+  }
+
+  .home-collection-card,
+  .home-collection-card.is-active {
+    height: 295px;
+    min-height: 295px;
+  }
+}

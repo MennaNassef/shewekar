@@ -1,0 +1,637 @@
+/* ========================================
+   ABOUT PAGE
+======================================== */
+
+.about-page {
+  width: 100%;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+
+/* ========================================
+   ABOUT HERO
+======================================== */
+
+.about-hero {
+  width: 100%;
+  padding-top: 95px;
+}
+
+
+/* ========================================
+   ABOUT TITLE
+======================================== */
+
+.about-title {
+  width: 90%;
+  max-width: 1250px;
+  margin: 0 auto 35px;
+}
+
+.about-title h1 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #222;
+}
+
+
+/* ========================================
+   HERO IMAGE
+======================================== */
+
+.about-image-wrapper {
+  position: relative;
+
+  width: 100%;
+  max-width:none ;
+
+  height: 550px;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+
+.about-image {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* ========================================
+   IMAGE OVERLAY
+======================================== */
+
+.about-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.25);
+
+  z-index: 1;
+}
+
+
+/* ========================================
+   HERO TEXT
+======================================== */
+
+.about-text {
+  position: absolute;
+
+  z-index: 2;
+
+  top: 50%;
+  left: 5%;
+
+  transform: translateY(-50%);
+
+  width: 43%;
+
+  color: #fff;
+
+  text-align: left;
+}
+
+.about-text h2 {
+  margin: 0 0 14px;
+
+  font-size: 14px;
+  font-weight: 400;
+  color: #d1d1d1;
+  line-height: 1.3;
+}
+
+.about-text h3 {
+  margin: 0 0 25px;
+
+  font-size: 30px;
+  font-weight: 400;
+
+  line-height: 1.5;
+}
+
+.about-text p {
+  margin: 0 0 17px;
+
+  font-size: 12.5px;
+  font-weight: 300;
+
+  line-height: 1.75;
+
+  opacity: 0.9;
+}
+
+
+/* ========================================
+   MEET SHEWEKAR
+======================================== */
+
+.meet-shewekar {
+  width: 90%;
+  max-width: 1250px;
+
+  margin: 0 auto;
+
+  padding: 70px 0;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1.6fr;
+
+  gap: 80px;
+
+  gap: 30px;
+  align-items: center;
+}
+
+/* ========================================
+   MEET IMAGE - RIGHT
+======================================== */
+
+.meet-shewekar__image {
+  grid-column: 2;
+  grid-row: 1;
+
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.meet-shewekar__image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: cover;
+}
+
+.meet-shewekar__content h2 {
+  margin: 0 0 35px;
+
+  font-size: 40px;
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+.meet-shewekar__content p {
+  margin: 0 0 24px;
+
+  font-size: 12px;
+  font-weight: 400;
+
+  line-height: 1.9;
+
+  color: #444;
+}
+
+
+/* ========================================
+   TEAM SECTION
+======================================== */
+.about-team {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-team__content {
+  width: 90%;
+  max-width: 1250px;
+  margin: 0 auto 45px;
+  text-align: left;
+}
+
+.about-team__content p {
+  width: 100%;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #444;
+}
+
+.about-team__image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.about-team__image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  object-fit: cover;
+}
+
+
+
+/* ========================================
+   LARGE SCREENS
+======================================== */
+
+@media (min-width: 1400px) {
+
+  .about-image-wrapper {
+    height: 650px;
+  }
+
+  .about-text {
+    left: 8%;
+    width: 40%;
+  }
+
+  .about-text h2 {
+    font-size: 30px;
+  }
+
+  .about-text h3 {
+    font-size: 15px;
+  }
+
+  .about-text p {
+    font-size: 13px;
+  }
+}
+
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 900px) {
+
+  /* HERO */
+
+  .about-hero {
+    padding-top: 75px;
+  }
+
+  .about-title {
+    width: 92%;
+    margin-bottom: 25px;
+  }
+
+  .about-title h1 {
+    font-size: 36px;
+  }
+
+  .about-image-wrapper {
+    width: 100%;
+    height: 550px;
+  }
+
+  .about-text {
+    left: 6%;
+    width: 52%;
+  }
+
+  .about-text h2 {
+    font-size: 24px;
+  }
+
+  .about-text h3 {
+    font-size: 13px;
+    margin-bottom: 22px;
+  }
+
+  .about-text p {
+    font-size: 11.5px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+
+
+  /* MEET SHEWEKAR */
+
+  .meet-shewekar {
+    width: 92%;
+
+    padding: 90px 0;
+
+    gap: 50px;
+  }
+
+  .meet-shewekar__content h2 {
+    font-size: 34px;
+
+    margin-bottom: 28px;
+  }
+
+  .meet-shewekar__content p {
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+  }
+
+
+  /* TEAM */
+
+  .about-team {
+    padding-bottom: 50px;
+  }
+
+  .about-team__content {
+    width: 92%;
+    max-width: 750px;
+    margin-bottom: 35px;
+  }
+
+  .about-team__content p {
+    font-size: 12.5px;
+    line-height: 1.8;
+  }
+
+  .about-team__image {
+    width: 100%;
+  }
+}
+
+
+/* ========================================
+   SMALL TABLET
+======================================== */
+
+@media (max-width: 700px) {
+
+  /* HERO */
+
+  .about-image-wrapper {
+    height: 600px;
+  }
+
+  .about-text {
+    left: 7%;
+    width: 75%;
+  }
+
+  .about-text h2 {
+    font-size: 25px;
+  }
+
+  .about-text p {
+    font-size: 11.5px;
+  }
+
+
+  /* MEET */
+
+.meet-shewekar {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+
+    padding: 75px 0;
+  }
+
+  .meet-shewekar__content {
+    order: 1;
+
+    width: 100%;
+  }
+
+  .meet-shewekar__image {
+    order: 0;
+
+    width: 100%;
+  }
+
+  .meet-shewekar__content h2 {
+    font-size: 32px;
+
+    margin-bottom: 25px;
+  }
+
+  .meet-shewekar__content p {
+    font-size: 12px;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+  }
+
+  /* TEAM */
+
+  .about-team {
+    padding-bottom: 50px;
+  }
+
+  .about-team__content {
+    width: 92%;
+    max-width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .about-team__content p {
+    font-size: 12px;
+    line-height: 1.75;
+  }
+
+  .about-team__image {
+    width: 100%;
+  }
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 600px) {
+
+  /* HERO */
+
+  .about-hero {
+    padding-top: 60px;
+  }
+
+  .about-title {
+    width: 88%;
+    margin-bottom: 20px;
+  }
+
+  .about-title h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .about-image-wrapper {
+    width: 100%;
+
+    height: 650px;
+  }
+
+  .about-image {
+    object-position: center;
+  }
+
+  .about-overlay {
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  .about-text {
+    top: 50%;
+    left: 7%;
+
+    width: 82%;
+
+    transform: translateY(-50%);
+  }
+
+  .about-text h2 {
+    font-size: 22px;
+
+    line-height: 1.35;
+
+    margin-bottom: 12px;
+  }
+
+  .about-text h3 {
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    margin-bottom: 22px;
+  }
+
+  .about-text p {
+    font-size: 10.8px;
+
+    line-height: 1.75;
+
+    margin-bottom: 15px;
+
+    opacity: 0.9;
+  }
+
+
+  /* MEET SHEWEKAR */
+
+  .meet-shewekar {
+    width: 88%;
+
+    padding: 70px 0;
+
+    gap: 35px;
+  }
+
+  .meet-shewekar__content h2 {
+    font-size: 30px;
+
+    margin-bottom: 25px;
+  }
+
+  .meet-shewekar__content p {
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+  }
+
+
+  /* TEAM */
+
+ .about-team {
+    width: 100%;
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+
+  .about-team__content {
+    width: 88%;
+    margin-bottom: 28px;
+  }
+
+  .about-team__content p {
+    font-size: 12px;
+    line-height: 1.75;
+  }
+
+  .about-team__image {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-team__image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
+
+
+/* ========================================
+   VERY SMALL MOBILE
+======================================== */
+
+@media (max-width: 400px) {
+
+  .about-title h1 {
+    font-size: 28px;
+  }
+
+  .about-image-wrapper {
+    height: 680px;
+  }
+
+  .about-text {
+    left: 7%;
+    width: 84%;
+  }
+
+  .about-text h2 {
+    font-size: 20px;
+  }
+
+  .about-text h3 {
+    font-size: 11px;
+  }
+
+  .about-text p {
+    font-size: 10.3px;
+    line-height: 1.7;
+  }
+
+  .meet-shewekar__content h2 {
+    font-size: 28px;
+  }
+
+  .meet-shewekar__content p,
+  .about-team__content p {
+    font-size: 13px;
+  }
+  .about-team__content p {
+    font-size: 13px;
+  }
+
+  .about-team__image {
+    width: 100%;
+  }
+}

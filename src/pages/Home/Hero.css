@@ -1,0 +1,268 @@
+.hero {
+  width: 100%;
+  background: #000;
+  overflow: hidden
+}
+
+/* DESKTOP: original requested layout — large image LEFT, two images stacked RIGHT */
+.hero__desktop {
+  display: grid;
+  width: 100%;
+
+  height: min(760px, 78vh);
+  min-height: 568px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, minmax(0, 1fr))
+}
+
+.hero__desktop .hero__panel--large {
+  grid-column: 1;
+  grid-row: 1 / 3
+}
+
+.hero__panel {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: #000
+}
+
+.hero__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center
+}
+
+.hero__content {
+  position: absolute;
+  left: clamp(28px, 6.5vw, 44px);
+  bottom: clamp(28px, 5vw, 34px);
+  z-index: 2;
+  max-width: min(560px, 78%);
+  color: #fff;
+  text-shadow: 0 1px 18px rgba(0, 0, 0, .35)
+}
+
+.hero__content span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: clamp(12px, 1.1vw, 16px);
+  line-height: 1.2;
+  color:rgb(249, 249, 249);
+}
+
+.hero__content h1 {
+  margin: 0 0 26px;
+  font-size: clamp(28px, 3.1vw, 48px);
+  font-weight: 400;
+  line-height: 1.05
+}
+
+.hero__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  min-height: 52px;
+  padding: 14px 28px;
+  color: #111;
+  background: #f5f0e8;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 6px;
+  line-height: 1
+}
+
+.hero__tablet,
+.hero__mobile {
+  display: none
+}
+
+/* TABLET: large image TOP, two images SIDE-BY-SIDE underneath */
+@media (min-width:768px) and (max-width:1023px) {
+  .hero__desktop {
+    display: none
+  }
+
+  .hero__tablet {
+    display: grid;
+    width: 100%;
+    height: min(900px, 100vh);
+    min-height: 620px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: minmax(360px, 62%) minmax(240px, 38%)
+  }
+
+  .hero__tablet .hero__panel--large {
+    grid-column: 1 / 3;
+    grid-row: 1
+  }
+
+  .hero__tablet .hero__panel:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2
+  }
+
+  .hero__tablet .hero__panel:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2
+  }
+
+  .hero__content {
+    left: 34px;
+    bottom: 34px
+  }
+}
+
+/* MOBILE: one image, fully visible, black letterboxing + dots bottom-left */
+@media (max-width: 767px) {
+
+  .hero__desktop,
+  .hero__tablet {
+    display: none;
+  }
+
+  .hero__mobile {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 550px;
+    min-height: 550px;
+    background: #000;
+    overflow: hidden;
+  }
+
+  .hero__mobile-stage {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    min-height: 550px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #000;
+    overflow: hidden;
+  }
+
+  /* الصورة الأولى */
+  .hero__mobile-image--first {
+    display: block;
+
+    width: auto;
+    height: 550px;
+
+    max-width: none;
+    max-height: none;
+
+    object-fit: contain;
+    object-position: center;
+
+    flex-shrink: 0;
+  }
+
+  /* باقي الصور */
+  .hero__mobile-image {
+    display: block;
+
+    width: auto;
+    height: 550px;
+
+    max-width: none;
+    max-height: none;
+
+    object-fit: contain;
+    object-position: center;
+
+    flex-shrink: 0;
+  }
+
+  /* النص والزر */
+  .hero__mobile-content {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 65px;
+
+    z-index: 2;
+
+    color: #fff;
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.65);
+  }
+
+  .hero__mobile-content span {
+    display: block;
+    margin-bottom: 8px;
+
+    font-size: 12px;
+    line-height: 1.2;
+    color: #fff;
+  }
+
+  .hero__mobile-content h1 {
+    margin: 0 0 18px;
+
+    font-size: clamp(28px, 8vw, 42px);
+    line-height: 1.05;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .hero__mobile-content .hero__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 150px;
+    min-height: 52px;
+
+    padding: 14px 24px;
+
+    font-size: 14px;
+    line-height: 1;
+
+    color: #111;
+    background: #f5f0e8;
+
+    text-decoration: none;
+    border-radius: 6px;
+  }
+
+  /* Dots */
+  .hero__dots {
+    position: absolute;
+    left: 20px;
+    bottom: 18px;
+
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .hero__dot {
+    width: 8px;
+    height: 8px;
+
+    padding: 0;
+
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+
+    background: transparent;
+    cursor: pointer;
+
+    transition: width 0.25s ease, background 0.25s ease;
+  }
+
+  .hero__dot.is-active {
+    width: 24px;
+    border-radius: 999px;
+    background: #fff;
+  }
+}

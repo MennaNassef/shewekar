@@ -1,0 +1,680 @@
+
+/* =========================
+   PAGE
+========================= */
+
+.interior-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f5f3;
+  color: #282828;
+  overflow: hidden;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.interior-title-section {
+  width: 100%;
+
+  padding-top: 105px;
+  padding-bottom: 22px;
+
+  background: #f5f5f3;
+
+  box-sizing: border-box;
+}
+
+.interior-title-container {
+  width: 90%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+}
+
+.interior-title-container h1 {
+  margin: 0;
+
+  font-size: 38px;
+  line-height: 1.1;
+  font-weight: 400;
+
+  color: #282828;
+}
+
+
+/* =========================
+   HERO IMAGE
+========================= */
+
+.interior-hero {
+  width: 100%;
+
+  /*
+    Title + Hero stay
+    inside the first viewport.
+  */
+
+  height: calc(100vh - 150px);
+
+  min-height: 0;
+
+  overflow: hidden;
+}
+
+.interior-hero img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.interior-description {
+  width: 100%;
+
+  background: #f5f5f3;
+
+  padding: 45px 0 50px;
+}
+
+.interior-description-container {
+  width: 90%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+}
+
+.interior-description-container p {
+  width: 100%;
+  max-width: 1450px;
+
+  margin: 0;
+
+  font-size: 11px;
+  line-height: 1.55;
+  font-weight: 400;
+
+  color: #282828;
+}
+
+
+/* =========================
+   PROJECTS
+========================= */
+
+.interior-projects {
+  width: 100%;
+
+  padding: 0 0 70px;
+
+  background: #f5f5f3;
+}
+
+.interior-projects-container {
+  width: 90%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================
+   PROJECTS TRACK
+========================= */
+
+.interior-projects-track {
+  position: relative;
+
+  display: flex;
+
+  width: 100%;
+  height: 500px;
+
+  /*
+    Smaller gap between images
+  */
+  gap: 10px;
+
+  overflow: hidden;
+
+  background: #f5f5f3;
+}
+
+
+/* =========================
+   PROJECT CARD
+========================= */
+
+.interior-project-card {
+  position: relative;
+
+  /*
+    Hidden image is wider now:
+    32% hidden
+    68% active
+  */
+
+  flex: 0 0 calc(32% - 5px);
+
+  width: auto;
+  height: 100%;
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  background: #000;
+
+  border-radius: 3px;
+
+  transition:
+    flex-basis 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.interior-project-card.is-active {
+  flex-basis: calc(68% - 5px);
+}
+
+
+/* =========================
+   LINK
+========================= */
+
+.interior-project-link {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.interior-project-image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 3px;
+}
+
+
+/* =========================
+   OVERLAY
+========================= */
+
+.interior-project-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  background: rgba(0, 0, 0, 0.18);
+
+  pointer-events: none;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.interior-project-content {
+  position: absolute;
+
+  left: 45px;
+  top: 45px;
+
+  width: min(500px, calc(100% - 90px));
+
+  z-index: 2;
+
+  color: #fff;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(45px);
+
+  transition:
+    opacity 0.45s ease,
+    transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1),
+    visibility 0s linear 0.45s;
+}
+
+.interior-project-card.is-active .interior-project-content {
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+
+  transition:
+    opacity 0.45s ease 0.4s,
+    transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s,
+    visibility 0s linear 0s;
+}
+
+
+/* =========================
+   LABEL
+========================= */
+
+.interior-project-label {
+  display: block;
+
+  margin-bottom: 12px;
+
+  font-size: 12px;
+  line-height: 1.2;
+
+  color: #fff;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.interior-project-content h2 {
+  margin: 0 0 22px;
+
+  font-size: clamp(30px, 3.2vw, 50px);
+  line-height: 1.05;
+  font-weight: 400;
+
+  color: #fff;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.interior-project-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 120px;
+  min-height: 43px;
+
+  padding: 13px 23px;
+
+  border: none;
+  border-radius: 5px;
+
+  background: #fff;
+  color: #111;
+
+  font-size: 12px;
+  line-height: 1;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1000px) {
+
+  /* TITLE */
+
+  .interior-title-section {
+    padding-top: 95px;
+    padding-bottom: 20px;
+  }
+
+  .interior-title-container {
+    width: 92%;
+  }
+
+  .interior-title-container h1 {
+    font-size: 34px;
+  }
+
+
+  /* HERO */
+
+  .interior-hero {
+    height: calc(100vh - 135px);
+
+    min-height: 0;
+  }
+
+
+  /* DESCRIPTION */
+
+  .interior-description {
+    padding: 40px 0 45px;
+  }
+
+  .interior-description-container {
+    width: 92%;
+  }
+
+  .interior-description-container p {
+    font-size: 10.5px;
+  }
+
+
+  /* PROJECTS */
+
+  .interior-projects-container {
+    width: 92%;
+  }
+
+  .interior-projects-track {
+    height: 440px;
+
+    gap: 8px;
+  }
+
+
+  /*
+    Wider hidden image on tablet
+  */
+
+  .interior-project-card {
+    flex-basis: calc(35% - 4px);
+  }
+
+  .interior-project-card.is-active {
+    flex-basis: calc(65% - 4px);
+  }
+
+
+  .interior-project-content {
+    left: 30px;
+    top: 30px;
+
+    width: calc(100% - 60px);
+  }
+
+  .interior-project-content h2 {
+    font-size: clamp(28px, 4vw, 42px);
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  /* TITLE */
+
+  .interior-title-section {
+    padding-top: 82px;
+    padding-bottom: 16px;
+  }
+
+  .interior-title-container {
+    width: 92%;
+  }
+
+  .interior-title-container h1 {
+    font-size: 27px;
+  }
+
+
+  /* =========================
+     HERO
+  ========================= */
+
+  .interior-hero {
+    height: 235px;
+
+    min-height: 235px;
+  }
+
+  .interior-hero img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+  /* =========================
+     DESCRIPTION
+  ========================= */
+
+  .interior-description {
+    padding: 32px 0 38px;
+  }
+
+  .interior-description-container {
+    width: 92%;
+  }
+
+  .interior-description-container p {
+    font-size: 10px;
+
+    line-height: 1.6;
+  }
+
+
+  /* =========================
+     PROJECTS
+  ========================= */
+
+  .interior-projects {
+    padding: 0 0 50px;
+  }
+
+  .interior-projects-container {
+    width: 92%;
+  }
+
+  .interior-projects-track {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+
+    gap: 12px;
+
+    overflow: visible;
+
+    background: #f5f5f3;
+  }
+
+
+  /*
+    On mobile both images
+    have the same width.
+  */
+
+  .interior-project-card,
+  .interior-project-card.is-active {
+    flex: none;
+
+    width: 100%;
+    height: 300px;
+
+    background: #000;
+
+    border-radius: 3px;
+
+    transition: none;
+  }
+
+  .interior-project-image {
+    border-radius: 3px;
+  }
+
+
+  /* =========================
+     CONTENT
+  ========================= */
+
+  .interior-project-content,
+  .interior-project-card.is-active .interior-project-content {
+    left: 25px;
+    top: 25px;
+
+    width: calc(100% - 50px);
+
+    opacity: 1;
+    visibility: visible;
+
+    transform: none;
+
+    transition: none;
+  }
+
+
+  .interior-project-label {
+    margin-bottom: 10px;
+
+    font-size: 11px;
+  }
+
+  .interior-project-content h2 {
+    margin-bottom: 18px;
+
+    font-size: 30px;
+  }
+
+  .interior-project-button {
+    min-width: 105px;
+    min-height: 40px;
+
+    padding: 11px 18px;
+
+    font-size: 11px;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  /* TITLE */
+
+  .interior-title-section {
+    padding-top: 76px;
+    padding-bottom: 14px;
+  }
+
+  .interior-title-container {
+    width: 92%;
+  }
+
+  .interior-title-container h1 {
+    font-size: 25px;
+  }
+
+
+  /* =========================
+     HERO
+  ========================= */
+
+  .interior-hero {
+    height: 195px;
+
+    min-height: 195px;
+  }
+
+
+  /* =========================
+     DESCRIPTION
+  ========================= */
+
+  .interior-description {
+    padding: 28px 0 34px;
+  }
+
+  .interior-description-container {
+    width: 92%;
+  }
+
+  .interior-description-container p {
+    font-size: 9.5px;
+
+    line-height: 1.6;
+  }
+
+
+  /* =========================
+     PROJECTS
+  ========================= */
+
+  .interior-projects-container {
+    width: 92%;
+  }
+
+  .interior-projects-track {
+    gap: 10px;
+  }
+
+
+  .interior-project-card,
+  .interior-project-card.is-active {
+    height: 270px;
+
+    border-radius: 3px;
+  }
+
+  .interior-project-image {
+    border-radius: 3px;
+  }
+
+
+  .interior-project-content,
+  .interior-project-card.is-active .interior-project-content {
+    left: 20px;
+    top: 20px;
+
+    width: calc(100% - 40px);
+  }
+
+
+  .interior-project-label {
+    font-size: 10px;
+  }
+
+  .interior-project-content h2 {
+    font-size: 25px;
+  }
+
+  .interior-project-button {
+    min-width: 95px;
+    min-height: 37px;
+
+    padding: 10px 16px;
+
+    font-size: 10px;
+  }
+}
+

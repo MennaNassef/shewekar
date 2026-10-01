@@ -1,0 +1,729 @@
+/* =========================
+   SEARCH OVERLAY
+========================= */
+
+.search-page {
+  position: fixed;
+
+  top: 80px;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+
+  z-index: 9990;
+
+  box-sizing: border-box;
+
+  background: #f4f4f4;
+
+  color: #282828;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   BEFORE SEARCH
+========================= */
+
+.search-page-idle {
+  height: 125px;
+
+  overflow: hidden;
+
+  padding-bottom: 15px;
+}
+
+
+/* =========================
+   AFTER SEARCH
+========================= */
+
+.search-page-active {
+  max-height: calc(100vh - 80px);
+
+  overflow-y: auto;
+
+  padding-bottom: 45px;
+}
+
+
+/* =========================
+   CLOSE BUTTON
+========================= */
+
+.search-close {
+  position: absolute;
+
+  top: 14px;
+  right: 25px;
+
+  width: 34px;
+  height: 34px;
+
+  padding: 0;
+
+  border: none;
+
+  background: transparent;
+
+  color: #282828;
+
+  font-size: 34px;
+  font-weight: 300;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.search-close:hover {
+  opacity: 0.6;
+
+  transform: rotate(90deg);
+}
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+.search-container {
+  width: 100%;
+
+  max-width: 1400px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================
+   SEARCH HEADER
+========================= */
+
+.search-header {
+  width: 100%;
+
+  text-align: left;
+}
+
+
+/* IDLE */
+
+.search-page-idle .search-header {
+  padding: 20px 0 0;
+}
+
+
+/* ACTIVE */
+
+.search-page-active .search-header {
+  padding: 30px 0 25px;
+}
+
+
+/* =========================
+   RESULTS HEADING
+========================= */
+
+.search-results-heading {
+  margin: 0 0 25px;
+
+  font-size: 30px;
+
+  line-height: 1.2;
+
+  font-weight: 500;
+
+  color: #282828;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.search-form {
+  width: 100%;
+
+  max-width: 650px;
+
+  display: flex;
+
+  align-items: stretch;
+
+  gap: 7px;
+}
+
+
+/* =========================
+   INPUT
+========================= */
+
+.search-form input {
+  flex: 1;
+
+  min-width: 0;
+
+  width: 100%;
+
+  height: 44px;
+
+  padding: 0 15px;
+
+  border: 1px solid #cccccc;
+
+  border-radius: 4px;
+
+  outline: none;
+
+  background: #f4f4f4;
+
+  color: #282828;
+
+  font-family: inherit;
+
+  font-size: 13px;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.search-form input:hover,
+.search-form input:focus {
+  background: #eaeaea;
+
+  border-color: #999999;
+}
+
+.search-form input::placeholder {
+  color: #777777;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.search-form button {
+  height: 44px;
+
+  padding: 0 25px;
+
+  border: none;
+
+  border-radius: 4px;
+
+  background: #000000;
+
+  color: #ffffff;
+
+  font-family: inherit;
+
+  font-size: 12px;
+
+  cursor: pointer;
+
+  white-space: nowrap;
+
+  transition:
+    background-color 0.2s ease;
+}
+
+.search-form button:hover {
+  background: #333333;
+}
+
+
+/* =========================
+   RESULTS
+========================= */
+
+.page-search-results {
+  width: 100%;
+
+  margin-top: 0;
+}
+
+
+.search-results-count {
+  margin: 0 0 35px;
+
+  font-size: 12px;
+
+  color: #666666;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.search-section {
+  width: 100%;
+
+  margin-bottom: 35px;
+}
+
+
+.search-section-title {
+  margin: 0 0 20px;
+
+  font-size: 22px;
+
+  font-weight: 500;
+
+  color: #282828;
+}
+
+
+/* =========================
+   RESULT GRID
+========================= */
+
+.search-results-grid {
+  display: grid;
+
+  width: 100%;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 15px;
+}
+
+
+/* =========================
+   RESULT CARD
+========================= */
+
+.search-result-card {
+  display: block;
+
+  color: #282828;
+
+  text-decoration: none;
+}
+
+
+/* =========================
+   RESULT IMAGE
+========================= */
+
+.search-result-image {
+  width: 100%;
+
+  aspect-ratio: 1 / 1;
+
+  overflow: hidden;
+
+  background: #e7e7e7;
+
+  margin-bottom: 10px;
+}
+
+
+.search-result-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.4s ease;
+}
+
+
+.search-result-card:hover
+.search-result-image img {
+  transform: scale(1.03);
+}
+
+
+/* =========================
+   RESULT TYPE
+========================= */
+
+.search-result-type {
+  margin: 0 0 5px;
+
+  font-size: 10px;
+
+  color: #777777;
+
+  text-transform: uppercase;
+}
+
+
+/* =========================
+   RESULT TITLE
+========================= */
+
+.search-result-title {
+  margin: 0;
+
+  font-size: 14px;
+
+  line-height: 1.3;
+
+  font-weight: 500;
+}
+
+
+/* =========================
+   RESULT PRICE
+========================= */
+
+.search-result-price {
+  margin: 6px 0 0;
+
+  font-size: 12px;
+
+  color: #555555;
+}
+
+
+/* =========================
+   PAGES
+========================= */
+
+.pages-grid {
+  display: grid;
+
+  width: 100%;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 12px;
+}
+
+
+/* =========================
+   PAGE CARD
+========================= */
+
+.page-result-card {
+  min-height: 115px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  background: #e6e6e6;
+
+  color: #282828;
+
+  text-decoration: none;
+
+  transition:
+    background-color 0.25s ease,
+    transform 0.2s ease;
+}
+
+
+.page-result-card:hover {
+  background: #dcdcdc;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   PAGE ICON
+========================= */
+
+.page-icon {
+  width: 31px;
+  height: 31px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #f4f4f4;
+
+  color: #282828;
+}
+
+
+.page-icon svg {
+  width: 14px;
+  height: 14px;
+
+  stroke-width: 1.5;
+}
+
+
+/* =========================
+   PAGE TITLE
+========================= */
+
+.page-result-title {
+  margin: 0;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  text-align: center;
+}
+
+
+/* =========================
+   NO RESULTS
+========================= */
+
+.no-search-results {
+  margin: 0;
+
+  padding-bottom: 20px;
+
+  font-size: 13px;
+
+  color: #666666;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .search-page {
+    top: 70px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+
+  .search-page-idle {
+    height: 130px;
+
+    padding-bottom: 15px;
+  }
+
+
+  .search-page-active {
+    max-height: calc(100vh - 70px);
+
+    padding-bottom: 35px;
+  }
+
+
+  .search-close {
+    top: 12px;
+    right: 18px;
+
+    width: 32px;
+    height: 32px;
+
+    font-size: 31px;
+  }
+
+
+  .search-page-idle .search-header {
+    padding: 18px 0 0;
+  }
+
+
+  .search-page-active .search-header {
+    padding: 25px 0 22px;
+  }
+
+
+  .search-results-heading {
+    font-size: 25px;
+
+    margin-bottom: 24px;
+  }
+
+
+  .search-form {
+    max-width: 650px;
+  }
+
+
+  .search-results-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 12px;
+  }
+
+
+  .pages-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .search-page {
+    top: 60px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  .search-page-idle {
+    height: 115px;
+
+    padding-bottom: 12px;
+  }
+
+
+  .search-page-active {
+    max-height: calc(100vh - 60px);
+
+    padding-bottom: 25px;
+  }
+
+
+  .search-close {
+    top: 9px;
+    right: 12px;
+
+    width: 30px;
+    height: 30px;
+
+    font-size: 28px;
+  }
+
+
+  .search-page-idle .search-header {
+    padding: 15px 0 0;
+  }
+
+
+  .search-page-active .search-header {
+    padding: 20px 0 18px;
+  }
+
+
+  .search-results-heading {
+    font-size: 21px;
+
+    margin-bottom: 18px;
+  }
+
+
+  .search-form {
+    width: 100%;
+
+    max-width: 650px;
+
+    gap: 5px;
+  }
+
+
+  .search-form input {
+    height: 42px;
+
+    font-size: 12px;
+  }
+
+
+  .search-form button {
+    height: 42px;
+
+    padding: 0 18px;
+
+    font-size: 11px;
+  }
+
+
+  .search-results-count {
+    margin-bottom: 28px;
+  }
+
+
+  .search-section {
+    margin-bottom: 40px;
+  }
+
+
+  .search-section-title {
+    font-size: 18px;
+
+    margin-bottom: 14px;
+  }
+
+
+  .search-results-grid {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 8px;
+  }
+
+
+  .search-result-title {
+    font-size: 12px;
+  }
+
+
+  .search-result-type {
+    font-size: 9px;
+  }
+
+
+  .search-result-price {
+    font-size: 11px;
+  }
+
+
+  .pages-grid {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 8px;
+  }
+
+
+  .page-result-card {
+    min-height: 90px;
+  }
+
+
+  .page-result-title {
+    font-size: 12px;
+  }
+
+}

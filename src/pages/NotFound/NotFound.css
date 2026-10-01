@@ -1,0 +1,352 @@
+.not-found-page {
+  min-height: 100vh;
+  background: #f4f4f4;
+  padding: 120px 6vw 100px;
+  color: #282828;
+}
+
+/* =========================
+   INTRO
+========================= */
+
+.not-found-page h1 {
+  margin: 0 0 18px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.not-found-page > p {
+  max-width: 560px;
+  margin: 0 0 35px;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* =========================
+   SEARCH
+========================= */
+
+.not-found-search {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  background: transparent;
+  padding-top: 20px;
+}
+
+.not-found-search input {
+  flex: 1;
+  min-width: 0;
+
+  height: 45px;
+  padding: 0 14px;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  outline: none;
+  background: #f4f4f4;
+
+  font-family: inherit;
+  font-size: 12px;
+  color: #282828;
+
+  transition: background-color 0.2s ease;
+}
+
+.not-found-search input:hover,
+.not-found-search input:focus {
+  background: #eaeaea;
+}
+
+.not-found-search input::placeholder {
+  color: #777;
+}
+
+.not-found-search button {
+  height: 45px;
+  padding: 0 50px;
+  border-radius: 2px;
+
+  border: none;
+  background: #000;
+  color: #fff;
+
+  font-family: inherit;
+  font-size: 11px;
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+}
+
+.not-found-search button:hover {
+  background: #333;
+}
+
+
+/* =========================
+   RESULTS
+========================= */
+
+.search-results {
+  margin-top: 25px;
+}
+
+.search-results-count {
+  margin: 0 0 40px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* =========================
+   SECTION TITLES
+========================= */
+
+.search-section {
+  margin-bottom: 65px;
+}
+
+.search-section-title {
+  margin: 0 0 25px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* =========================
+   NORMAL RESULTS
+   Products / Collections
+========================= */
+
+.search-results-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px 18px;
+}
+
+.search-result-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.search-result-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #e9e9e9;
+}
+
+.search-result-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.search-result-card:hover .search-result-image img {
+  transform: scale(1.03);
+}
+
+.search-result-type {
+  margin-top: 11px;
+  margin-bottom: 5px;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #777;
+}
+
+.search-result-title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.search-result-price {
+  margin-top: 5px;
+  font-size: 10px;
+  color: #555;
+}
+
+/* =========================
+   PROJECTS
+========================= */
+
+.projects-results {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+/* =========================
+   PAGES
+========================= */
+
+.pages-section {
+  margin-top: 75px;
+}
+
+.pages-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.page-result-card {
+  min-height: 105px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  background: #e6e6e6;
+  color: #282828;
+  text-decoration: none;
+
+  transition:
+    background-color 0.25s ease,
+    transform 0.2s ease;
+}
+
+.page-result-card:hover {
+  background: #dcdcdc;
+  transform: translateY(-2px);
+}
+
+.page-icon {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f4f4f4;
+  color: #282828;
+}
+
+.page-icon svg {
+  width: 14px;
+  height: 14px;
+  stroke-width: 1.5;
+}
+
+.page-result-title {
+  margin: 0;
+
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.3;
+}
+/* =========================
+   NO RESULTS
+========================= */
+
+.no-search-results {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #555;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1000px) {
+  .search-results-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .pages-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+  .not-found-page {
+    padding: 90px 5vw 70px;
+  }
+
+  .not-found-page h1 {
+    font-size: 25px;
+  }
+
+  .not-found-page > p {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+  
+  .not-found-search {
+    max-width: 100%;
+    gap: 5px;
+  }
+
+  .not-found-search input {
+    height: 40px;
+    font-size: 11px;
+  }
+
+  .not-found-search button {
+    height: 40px;
+    padding: 0 18px;
+    font-size: 10px;
+  }
+
+  .pages-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .page-result-card {
+    min-height: 90px;
+    gap: 8px;
+  }
+
+  .page-icon {
+    width: 27px;
+    height: 27px;
+  }
+
+  .page-icon svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .page-result-title {
+    font-size: 12px;
+  }
+
+  .search-results {
+    margin-top: 55px;
+  }
+
+  .search-section-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .search-results-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px 12px;
+  }
+
+  .search-result-title {
+    font-size: 11px;
+  }
+
+
+}
