@@ -473,8 +473,8 @@ function ProductDetails() {
             Product not found
           </h2>
 
-          <Link to="/collections">
-            Back to Collections
+          <Link to="/">
+            Back to Home Page
           </Link>
 
         </div>

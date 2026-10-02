@@ -51,7 +51,7 @@ function App() {
 
           
 
-          <Route path="/collections" element={<Collections />} />
+          {/* <Route path="/collections" element={<Collections />} /> */}
 
           
           <Route

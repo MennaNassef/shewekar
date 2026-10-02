@@ -1,173 +1,143 @@
 const API_BASE_URL = "https://shewekar.com";
 
+// ========================================
+// Normalize Product
+// ========================================
 
-export const getProductByHandle = async (
-  handle
-) => {
+const normalizeProduct = (product) => ({
+  id: product.id,
 
-  const response = await fetch(
-    `${API_BASE_URL}/products/${handle}.js`
-  );
+  title: product.title,
 
+  handle: product.handle,
 
-  if (!response.ok) {
+  vendor:
+    product.vendor ||
+    "Shewekar",
 
-    throw new Error(
-      `Failed to fetch product: ${response.status}`
-    );
+  description:
+    product.body_html ||
+    "",
 
-  }
+  body_html:
+    product.body_html ||
+    "",
 
+  price:
+    Number(
+      product.variants?.[0]?.price ||
+      product.price ||
+      0
+    ),
 
-  const product =
-    await response.json();
+  available:
+    product.variants?.[0]?.available ??
+    product.available ??
+    true,
 
+  image:
+    product.images?.[0]?.src ||
+    product.featured_image ||
+    "",
 
-  return {
+  images:
+    product.images?.map(
+      (image) => image.src
+    ) || [],
 
-    id: product.id,
+  variants:
+    product.variants || [],
 
-    title: product.title,
+  tags:
+    Array.isArray(product.tags)
+      ? product.tags
+      : [],
 
-    handle: product.handle,
+  type:
+    product.type ||
+    "",
 
-    vendor:
-      product.vendor ||
-      "Shewekar",
+  product_type:
+    product.type ||
+    "",
 
-    description:
-      product.body_html ||
-      "",
+  createdAt:
+    product.created_at,
 
-    body_html:
-      product.body_html ||
-      "",
+  updatedAt:
+    product.updated_at,
+});
 
-    price:
-      Number(
-        product.price || 0
-      ),
+// ========================================
+// Get Product By Handle
+// ========================================
 
-    available:
-      product.available,
-
-    image:
-      product.featured_image ||
-      product.images?.[0] ||
-      "",
-
-    images:
-      product.images || [],
-
-    variants:
-      product.variants || [],
-
-    tags:
-      Array.isArray(product.tags)
-        ? product.tags
-        : [],
-
-    type:
-      product.type || "",
-
-    product_type:
-      product.type || "",
-
-    createdAt:
-      product.created_at,
-
-    updatedAt:
-      product.updated_at,
-
-  };
-
-};
-
-
-export const getAllProducts =
-  async () => {
-
+export const getProductByHandle = async (handle) => {
+  try {
     const response = await fetch(
       `${API_BASE_URL}/products.json?limit=250`
     );
 
-
     if (!response.ok) {
-
       throw new Error(
         `Failed to fetch products: ${response.status}`
       );
-
     }
 
+    const data = await response.json();
 
-    const data =
-      await response.json();
+    const products = data.products || [];
 
+    console.log("Requested handle:", handle);
 
-    return (
-      data.products || []
-    ).map((product) => ({
+    const product = products.find(
+      (item) =>
+        String(item.handle)
+          .trim()
+          .toLowerCase() ===
+        String(handle)
+          .trim()
+          .toLowerCase()
+    );
 
-      id: product.id,
+    console.log("Found product:", product);
 
-      title: product.title,
+    if (!product) {
+      throw new Error(
+        `Product not found: ${handle}`
+      );
+    }
 
-      handle: product.handle,
+    return normalizeProduct(product);
 
-      vendor:
-        product.vendor ||
-        "Shewekar",
+  } catch (error) {
+    console.error(
+      "getProductByHandle error:",
+      error
+    );
 
-      description:
-        product.body_html ||
-        "",
+    throw error;
+  }
+};
 
-      body_html:
-        product.body_html ||
-        "",
+// ========================================
+// Get All Products
+// ========================================
 
-      price:
-        Number(
-          product.variants?.[0]?.price ||
-          0
-        ),
+export const getAllProducts = async () => {
+  const response = await fetch(
+    `${API_BASE_URL}/products.json?limit=250`
+  );
 
-      available:
-        product.variants?.[0]?.available ??
-        true,
+  if (!response.ok) {
+    throw new Error(
+      `Failed to fetch products: ${response.status}`
+    );
+  }
 
-      image:
-        product.images?.[0]?.src ||
-        product.featured_image ||
-        "",
+  const data = await response.json();
 
-      images:
-        product.images?.map(
-          (image) =>
-            image.src
-        ) || [],
-
-      variants:
-        product.variants || [],
-
-      tags:
-        Array.isArray(product.tags)
-          ? product.tags
-          : [],
-
-      type:
-        product.type || "",
-
-      product_type:
-        product.type || "",
-
-      createdAt:
-        product.created_at,
-
-      updatedAt:
-        product.updated_at,
-
-    }));
-
-  };
+  return (data.products || []).map(
+    normalizeProduct
+  );
+};

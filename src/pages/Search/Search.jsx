@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-import products from "../../data/products";
+import { getAllProducts } from "../../api/productsApi";
 import collections from "../../data/collections";
 import projects from "../../data/projects.json";
 
@@ -105,125 +105,48 @@ const pages = [
 ];
 
 
-/* =========================
-   SEARCH DATA
-========================= */
-
-const searchData = [
-
-  /* =========================
-     PRODUCTS
-  ========================= */
-
-  ...products.map((product) => ({
-    id: `product-${product.id}`,
-
-    type: "Product",
-
-    title: product.name,
-
-    description: product.category,
-
-    image: product.image,
-
-    price: product.price,
-
-    url: `/products/${product.id}`,
-
-    searchText: `
-      ${product.name}
-      ${product.category}
-      ${product.price}
-    `.toLowerCase(),
-  })),
-
-
-  /* =========================
-     COLLECTIONS
-  ========================= */
-
-  ...collections.map((collection) => ({
-    id: `collection-${collection.id}`,
-
-    type: "Collection",
-
-    title: collection.name,
-
-    description: collection.description,
-
-    image: collection.image,
-
-    url: `/collections/${collection.name
-      .toLowerCase()
-      .replace(/\s+/g, "-")}`,
-
-    searchText: `
-      ${collection.name}
-      ${collection.description}
-    `.toLowerCase(),
-  })),
-
-
-  /* =========================
-     PROJECTS
-  ========================= */
-
-  ...Object.entries(projects)
-    .filter(([key]) => key !== "_meta")
-    .map(([slug, project]) => ({
-      id: `project-${slug}`,
-
-      type: "Project",
-
-      title: project.title,
-
-      description: project.description,
-
-      image:
-        project.heroImage ||
-        project.images?.find(
-          (image) => image.isHero
-        )?.url ||
-        project.images?.[0]?.url,
-
-      url: `/projects/${slug}`,
-
-      searchText: `
-        ${project.title || ""}
-        ${project.location || ""}
-        ${project.client || ""}
-        ${project.projectDate || ""}
-        ${project.description || ""}
-      `.toLowerCase(),
-    })),
-
-
-  /* =========================
-     PAGES
-  ========================= */
-
-  ...pages.map((page) => ({
-    id: page.id,
-
-    type: page.type,
-
-    title: page.title,
-
-    description: page.description,
-
-    url: page.url,
-
-    searchText: `
-      ${page.title}
-      ${page.description}
-    `.toLowerCase(),
-  })),
-];
-
-
 function Search({ onClose }) {
 
   const [searchValue, setSearchValue] = useState("");
+
+  const [products, setProducts] = useState([]);
+
+
+  /* =========================
+     LOAD PRODUCTS FROM API
+  ========================= */
+
+  useEffect(() => {
+
+    const loadProducts = async () => {
+
+      try {
+
+        const data = await getAllProducts();
+
+        console.log(
+          "Search API products:",
+          data
+        );
+
+        setProducts(data);
+
+      } catch (error) {
+
+        console.error(
+          "Search products error:",
+          error
+        );
+
+        setProducts([]);
+
+      }
+
+    };
+
+    loadProducts();
+
+  }, []);
 
 
   /* =========================
@@ -231,7 +154,9 @@ function Search({ onClose }) {
   ========================= */
 
   useEffect(() => {
-    const hasText = searchValue.trim().length > 0;
+
+    const hasText =
+      searchValue.trim().length > 0;
 
     /*
       Before typing:
@@ -251,7 +176,176 @@ function Search({ onClose }) {
     return () => {
       document.body.style.overflow = "";
     };
+
   }, [searchValue]);
+
+
+  /* =========================
+     SEARCH DATA
+  ========================= */
+
+  const searchData = useMemo(() => {
+
+    return [
+
+      /* =========================
+         PRODUCTS
+      ========================= */
+
+      ...products.map((product) => ({
+
+        id:
+          `product-${product.id}`,
+
+        type:
+          "Product",
+
+        title:
+          product.title,
+
+        description:
+          product.type ||
+          product.product_type ||
+          "",
+
+        image:
+          product.image,
+
+        price:
+          product.price,
+
+        /*
+          IMPORTANT:
+          Use the real Shopify handle
+          from the API.
+        */
+
+        url:
+          `/products/${product.handle}`,
+
+        searchText: `
+          ${product.title || ""}
+          ${product.type || ""}
+          ${product.product_type || ""}
+          ${product.tags?.join(" ") || ""}
+          ${product.price || ""}
+        `.toLowerCase(),
+
+      })),
+
+
+      /* =========================
+         COLLECTIONS
+      ========================= */
+
+      ...collections.map((collection) => ({
+
+        id:
+          `collection-${collection.id}`,
+
+        type:
+          "Collection",
+
+        title:
+          collection.name,
+
+        description:
+          collection.description,
+
+        image:
+          collection.image,
+
+        url:
+          `/collections/${collection.name
+            .toLowerCase()
+            .replace(/\s+/g, "-")}`,
+
+        searchText: `
+          ${collection.name}
+          ${collection.description}
+        `.toLowerCase(),
+
+      })),
+
+
+      /* =========================
+         PROJECTS
+      ========================= */
+
+      ...Object.entries(projects)
+        .filter(
+          ([key]) =>
+            key !== "_meta"
+        )
+        .map(
+          ([slug, project]) => ({
+
+            id:
+              `project-${slug}`,
+
+            type:
+              "Project",
+
+            title:
+              project.title,
+
+            description:
+              project.description,
+
+            image:
+              project.heroImage ||
+              project.images?.find(
+                (image) =>
+                  image.isHero
+              )?.url ||
+              project.images?.[0]?.url,
+
+            url:
+              `/projects/${slug}`,
+
+            searchText: `
+              ${project.title || ""}
+              ${project.location || ""}
+              ${project.client || ""}
+              ${project.projectDate || ""}
+              ${project.description || ""}
+            `.toLowerCase(),
+
+          })
+        ),
+
+
+      /* =========================
+         PAGES
+      ========================= */
+
+      ...pages.map((page) => ({
+
+        id:
+          page.id,
+
+        type:
+          page.type,
+
+        title:
+          page.title,
+
+        description:
+          page.description,
+
+        url:
+          page.url,
+
+        searchText: `
+          ${page.title}
+          ${page.description}
+        `.toLowerCase(),
+
+      })),
+
+    ];
+
+  }, [products]);
 
 
   /* =========================
@@ -260,19 +354,24 @@ function Search({ onClose }) {
 
   const results = useMemo(() => {
 
-    const value = searchValue
-      .trim()
-      .toLowerCase();
+    const value =
+      searchValue
+        .trim()
+        .toLowerCase();
 
     if (!value) {
       return [];
     }
 
-    return searchData.filter((item) =>
-      item.searchText.includes(value)
+    return searchData.filter(
+      (item) =>
+        item.searchText.includes(value)
     );
 
-  }, [searchValue]);
+  }, [
+    searchValue,
+    searchData,
+  ]);
 
 
   const hasSearched =
@@ -335,7 +434,9 @@ function Search({ onClose }) {
               type="text"
               value={searchValue}
               onChange={(event) =>
-                setSearchValue(event.target.value)
+                setSearchValue(
+                  event.target.value
+                )
               }
               placeholder="Search"
               aria-label="Search"
