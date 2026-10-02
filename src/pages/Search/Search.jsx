@@ -1,3 +1,4 @@
+
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -497,6 +498,7 @@ function Search({ onClose }) {
                         to={item.url}
                         className="search-result-card"
                         key={item.id}
+                        onClick={onClose}
                       >
 
                         {item.image && (
@@ -566,6 +568,7 @@ function Search({ onClose }) {
                         to={item.url}
                         className="search-result-card"
                         key={item.id}
+                        onClick={onClose}
                       >
 
                         {item.image && (
@@ -628,6 +631,7 @@ function Search({ onClose }) {
                         to={item.url}
                         className="search-result-card"
                         key={item.id}
+                        onClick={onClose}
                       >
 
                         {item.image && (
@@ -690,6 +694,7 @@ function Search({ onClose }) {
                         to={item.url}
                         className="page-result-card"
                         key={item.id}
+                        onClick={onClose}
                       >
 
                         <div className="page-icon">

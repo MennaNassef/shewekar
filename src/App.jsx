@@ -47,11 +47,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route path="/shop" element={<Shop />} />
+          <Route path="/shop" element={<Home />} />
 
           
 
-          {/* <Route path="/collections" element={<Collections />} /> */}
+          <Route path="/collections" element={<Gallery />} />
 
           
           <Route
@@ -79,6 +79,7 @@ function App() {
             path="/products/:productHandle"
             element={<ProductDetails />}
           />
+          <Route path="/products" element={<Gallery />} />
 
           <Route
             path="/projects/:slug"
